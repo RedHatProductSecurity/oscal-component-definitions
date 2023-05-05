@@ -25,6 +25,6 @@ jobs:
       - name: Regenerate component-definitions
         run: make regenerate-cd
       - name: Update and PR
-        run: bash ./automation/scripts/update.sh "Sync OSCAL component definitions"
+        run: bash ./vendor/scripts/update.sh "Sync OSCAL component definitions"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
