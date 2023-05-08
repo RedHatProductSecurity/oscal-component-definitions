@@ -3,7 +3,7 @@ name: Update content from upstream NIST content
 on: workflow_dispatch
 
 jobs:
-  release:
+  update:
     name: Run update
     runs-on: ubuntu-latest
     permissions:
