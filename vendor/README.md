@@ -1,6 +1,6 @@
 # oscal-automation-libs
 
-A common repository to share code for Makefiles, helper scripts to support repositories with OSCAL content.
+A common repository to share code for Makefiles, helper scripts, and IaC to support repositories with OSCAL content.
 
 ## Makefiles
 `mk/` directory contains several predefined makefiles `(*.mk)`. They are imported into the top-level Makefiles.
@@ -29,9 +29,7 @@ EOF
 make help
 ```
 
-We plan to publish the container image for the environment, but can be built locally using the following command:
+We plan to publish the container image for the environment, but it can be built locally using the following command:
 ```bash
 podman build -t localhost:5000/trestle-demo:latest -f Containerfile
 ```
-
-
