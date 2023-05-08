@@ -14,4 +14,4 @@ function update_nist () {
   source "$SCRIPT_DIR/update.sh" "Sync NIST OSCAL content"
 }
 
-update_fedramp "$@"
+update_nist "$@"
