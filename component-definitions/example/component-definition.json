@@ -1,0 +1,54 @@
+{
+  "component-definition": {
+    "uuid": "3ce893c8-5ced-44a1-919b-e9ee80e21d0e",
+    "metadata": {
+      "title": "Component definition for Example",
+      "last-modified": "2023-05-05T21:11:11+00:00",
+      "version": "1.0",
+      "oscal-version": "1.0.4"
+    },
+    "components": [
+      {
+        "uuid": "2cd43b26-b385-4280-ac40-4057702a3754",
+        "type": "service",
+        "title": "Example",
+        "description": "Example Application",
+        "props": [
+          {
+            "name": "Rule_Id",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Test-rule_001",
+            "remarks": "rule_set_0"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+            "value": "Ensure all of the services are running this test",
+            "remarks": "rule_set_0"
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "8c1e6393-26fa-4fd8-8caa-0e7fd898a6a5",
+            "source": "profiles/fedramp_rev5_high/profile.json",
+            "description": "FedRAMP REV5 High Baseline",
+            "implemented-requirements": [
+              {
+                "uuid": "c182aaf1-ebeb-4a6e-9779-8f012445b963",
+                "control-id": "ac-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "http://ibm.github.io/compliance-trestle/schemas/oscal/cd",
+                    "value": "Test-rule_001"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
