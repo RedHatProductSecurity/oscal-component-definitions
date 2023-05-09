@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# This script finds changed CSV is the commit history that have not been committed to main and 
-# will generate a list of configuration files that need to be run to update the OSCAL JSON files.
-
 CHANGES=$(git diff-tree --no-commit-id --name-only -r HEAD)
 
 csv1=$"^data/"
