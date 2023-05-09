@@ -1,10 +1,9 @@
 #!/bin/bash
 
-CHANGES=`git diff-tree --no-commit-id --name-only -r HEAD`
+CHANGES=$(git diff-tree --no-commit-id --name-only -r HEAD)
 
 json_changed=false
 csv_changed=false
-
 
 json1=$"^component-definitions/"
 json2=$"\.json$"
@@ -12,7 +11,7 @@ json2=$"\.json$"
 csv1=$"^data/"
 csv2=$"\.csv$"
 
-for val in ${CHANGES[@]} ; do
+for val in "${CHANGES[@]}" ; do
   if [[ $val =~ $json1 && $val =~ $json2 ]]; then
     json_changed=true
   fi

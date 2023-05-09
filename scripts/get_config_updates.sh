@@ -10,11 +10,11 @@ new_extension=".config"
 
 declare -a changed_csvs
 
-for val in ${CHANGES[@]} ; do
+for val in "${CHANGES[@]}" ; do
   if [[ $val =~ $csv1 && $val =~ $csv2 ]]; then
     file_name_without_ext="${val%.*}"
     new_file_name="$file_name_without_ext$new_extension"
-    changed_csvs+=($new_file_name)
+    changed_csvs+=("$new_file_name")
   fi
 done
 

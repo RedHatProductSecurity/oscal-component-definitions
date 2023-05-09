@@ -4,7 +4,7 @@ REPO := https://github.com/RedHatProductSecurity/oscal-automation-libs.git
 BRANCH := main
 SHELL := /bin/bash
 SCRIPTS_DIR := "./vendor/scripts"
-CONFIGS :=$(shell sh scripts/get_config_updates.sh)
+CONFIGS :=$(shell bash scripts/get_config_updates.sh)
 
 ############################################################################
 ## Environment setup
@@ -30,7 +30,7 @@ update-cds:
 .PHONY: update-cd
 
 check-csv:
-	@sh scripts/csv_sanity_check.sh
+	@bash scripts/csv_sanity_check.sh
 
 ############################################################################
 ### Import NIST catalog
