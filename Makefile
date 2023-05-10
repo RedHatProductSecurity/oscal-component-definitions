@@ -25,8 +25,7 @@ trestle task csv-to-oscal-cd -c $(1);
 endef
 
 update-cds:
-	@source $(SCRIPTS_DIR)/trestle.sh
-	$(foreach f,$(CONFIGS),$(call update-cd,$(f)))
+	@source $(SCRIPTS_DIR)/trestle.sh && $(foreach f,$(CONFIGS),$(call update-cd,$(f)))
 .PHONY: update-cd
 
 check-csv:
