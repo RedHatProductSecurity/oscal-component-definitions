@@ -15,7 +15,7 @@ Some the directories in this repository are managed through automated processes 
 - profiles - This stores OSCAL Profiles installed in the trestle workspace.
 - vendor - This stores automation managed in a central repository that is vendored in.
 
-For information on how this data is managed, see the [FAQs](./docs/faqs.md)
+For information on how this data is managed, see the [FAQs](./docs/faqs.md).
 
 ### Content Managed by Control Provider (i.e. managed directly in this repository)
 - markdown - This stores OSCAL Component Definition information that can be edited directly.
@@ -23,18 +23,54 @@ For information on how this data is managed, see the [FAQs](./docs/faqs.md)
 - scripts - This stores bash scripts for automation tasks unique to this repository.
 - data - This stores CSV data that captures OSCAL Component Definition rule information.
 
-## Usage
+## Workflow
 
-OSCAL Component Definitions capture technology-specific implementation and control responses to allow adherence to be programmatically verified. Rules are provided using CSV and control responses are provided in the Markdown format.
+The below diagram depict the event-driven pull-based strategy used to update the content in this repository.
 
-### Workflow
 ```mermaid
-graph LR;
-  A[Start] --> B[Update CSV with rules for Component Definition]
-  B --> C[Update the OSCAL Component Definition JSON]
-  C --> D[Regenerate Component Definition Markdown]
-  D --> E[Edit Component Definition Markdown]
-  E --> F[Assemble Markdown back to OSCAL Component Definition JSON]
+graph LR
+    subgraph Trestle_Workspace
+        Catalogs(Catalogs)
+        Profiles(Profiles)
+        Component_Definitions(Component Definitions)
+    end
+    subgraph External Sources
+        Official_Catalogs_Profiles(Official OSCAL Catalogs and Profiles)
+    end
+    subgraph GitHub Actions
+        Catalog_Profile_Import(Catalog/Profile Import)
+        Sync_Profiles(Sync Profiles with Catalogs)
+        Sync_Components(Sync Components with Controls)
+        Trestle_Utility(Trestle Utility)
+        Git(Git)
+        GitHub_CLI(GitHub CLI)
+    end
+    subgraph Review and Approval
+        Draft_PR((Draft PR))
+        Pull_Request(Pull Request)
+    end
+    Person(Person)
+
+    Official_Catalogs_Profiles -- Updated Content --> Catalog_Profile_Import
+    Catalog_Profile_Import -- Updated Content --> Trestle_Utility
+    Trestle_Utility -- Sanity Checks --> Git
+    Git -- Commit--> GitHub_CLI
+    GitHub_CLI -- Open --> Draft_PR
+    Sync_Profiles -- Catalog Content --> Trestle_Utility
+    Sync_Components -- Profile Content --> Trestle_Utility
+    Draft_PR -- Run Checks --> Pull_Request
+    Pull_Request -- Merge --> Catalogs
+    Pull_Request -- Merge --> Profiles
+    Pull_Request -- Merge --> Component_Definitions
+    Catalogs -- Catalog Change Detected --> Sync_Profiles
+    Profiles -- Profile Change Detected --> Sync_Components
+    Person -- Review/Convert --> Draft_PR
+    Person -- Approve --> Pull_Request
 ```
 
-To see the available make targets, use `make help`. For information on how to edit the content in this repository, see the [tutorial](./docs/tutorial.md)
+### Current Limitations:
+
+1. Catalogs and profiles currently have to be synced by manually executing a GitHub Action workflow.
+2. Content must be assembled using the provided commands. Tasks are run when pull requests are submitted to check whether content is valid and in sync.
+
+To see the available make targets, use `make help`. For information on how to edit the content in this repository, see the [tutorial](./docs/tutorial.md).

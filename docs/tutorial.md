@@ -1,5 +1,7 @@
 # Tutorial
 
+OSCAL Component Definitions capture technology-specific implementation and control responses to allow adherence to be programmatically verified. Rules are provided using CSV and control responses are provided in the Markdown format.
+
 Steps below are based on the provided Example component definition.
 
 To make changes to the Example component definition, checkout a new branch.
@@ -47,4 +49,15 @@ git add markdown/ component-definitions/
 git commit -m "feat: adds control impl for ac-2 to example component"
 git push -u origin "feat/adds-rule-to-ac-2"
 gh pr create -t "feat/adds-rule-to-ac-2" -b "Adds a rule for control AC-2" -B "main" -H "feat/adds-rule-to-ac-2"
+```
+
+## Diagram
+
+```mermaid
+graph TD;
+  A[Start] --> B[Update CSV with rules for Component Definition]
+  B --> C[Update the OSCAL Component Definition JSON]
+  C --> D[Regenerate Component Definition Markdown]
+  D --> E[Edit Component Definition Markdown]
+  E --> F[Assemble Markdown back to OSCAL Component Definition JSON]
 ```
