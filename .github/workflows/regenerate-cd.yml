@@ -36,6 +36,7 @@ jobs:
   update-downstream:
     name: Regenerate content
     runs-on: ubuntu-latest
+    needs: update
     permissions:
       contents: write
       pull-requests: write
