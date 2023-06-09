@@ -1,7 +1,9 @@
 #!/bin/bash
 
+# shellcheck disable=SC2128
 SCRIPT_DIR="$(realpath "$(dirname "$BASH_SOURCE")")"
 
+# shellcheck disable=SC1091
 source "$SCRIPT_DIR/logging.sh"
 
 function install_epel () {
@@ -13,16 +15,6 @@ function install_epel () {
 function install_go () {
     run_log 0 "Starting base dependency install"
     dnf install -y go
-}
-
-function install_pandoc () {
-    run_log 0 "Starting base dependency install"
-    dnf -y install wget
-    wget -c https://github.com/jgm/pandoc/releases/download/3.1/pandoc-3.1-linux-amd64.tar.gz
-    tar zxvf pandoc-3.1-linux-amd64.tar.gz
-    cp -rp pandoc-3.1/bin/* "$BIN_DIR"/
-    rm -rf pandoc-3.1
-    rm -f pandoc-3.1-linux-amd64.tar.gz
 }
 
 function install_utils () {
