@@ -1,0 +1,36 @@
+name: Component Definition Assemble
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'markdown/components/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
+jobs:
+  auto-update:
+    name: Assemble compdef content
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Clone
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install Trestle
+        run: make trestle-install
+      - name: Automatically update content on push
+        run: make assemble-cd
+      - name: Commit and Push Changes
+        id: commit
+        run: bash ./vendor/scripts/update-push.sh -c "automated changes - assemble" "component-definitions/*"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
