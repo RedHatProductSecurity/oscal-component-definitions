@@ -6,6 +6,7 @@ on:
     paths:
       - 'profiles/**'
       - 'catalogs/**'
+      - 'component-definitions/**'
 
 jobs:
   update:
@@ -15,7 +16,8 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v2
+      - name: Clone
+        uses: actions/checkout@v2
       - name: Set up Python 3.8
         uses: actions/setup-python@v2
         with:
@@ -25,6 +27,6 @@ jobs:
       - name: Regenerate component-definitions
         run: make regenerate-cd
       - name: Update and PR
-        run: bash ./vendor/scripts/update.sh "Sync OSCAL component definitions"
+        run: bash ./vendor/scripts/update.sh -c "sync OSCAL component definitions" "markdown/*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
