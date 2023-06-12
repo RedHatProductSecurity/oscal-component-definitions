@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: 3.8
       - name: Update from upstream repo
-        run: bash ./vendor/scripts/update-upstream.sh -b "main" -r "https://github.com/RedHatProductSecurity/oscal-profiles" -a "ACTOR" -p "*.json" -i catalogs -i profiles
+        run: bash ./vendor/scripts/update-from-upstream.sh -b "main" -r "https://github.com/RedHatProductSecurity/oscal-profiles" -a "ACTOR" -p "*.json" -i catalogs -i profiles
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
