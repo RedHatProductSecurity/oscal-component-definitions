@@ -21,6 +21,8 @@ COPY --from=build /demo /demo
 
 WORKDIR /demo
 
+USER root
+
 RUN ./scripts/install.sh install_demo_utils
 
-USER guest
+USER 1001
