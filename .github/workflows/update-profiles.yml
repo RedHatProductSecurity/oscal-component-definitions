@@ -1,0 +1,24 @@
+name: Update upstream content
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Run update
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Clone
+        uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Update from upstream repo
+        run: bash ./vendor/scripts/update-upstream.sh -b "main" -r "https://github.com/RedHatProductSecurity/oscal-profiles" -a "ACTOR" -p "*.json" -i catalogs -i profiles
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
