@@ -30,11 +30,3 @@ update-cds:
 
 check-csv:
 	@bash scripts/csv_sanity_check.sh
-
-############################################################################
-### Import NIST catalog
-############################################################################
-
-import-nist:
-	@source $(SCRIPTS_DIR)/import.sh && import_nist_rev5_catalog
-.PHONY: import-nist
