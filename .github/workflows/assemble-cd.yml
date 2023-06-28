@@ -1,0 +1,28 @@
+name: Component Definition Assemble
+on:
+  workflow_call:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  auto-update:
+    name: Assemble compdef content
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Clone
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Assemble-cd
+        id: assemble-cd
+        uses: RedHatProductSecurity/trestle-bot@main
+        with:
+          markdown_path: "markdown/components"
+          assemble_model: "compdef"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

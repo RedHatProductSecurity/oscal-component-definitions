@@ -28,3 +28,8 @@ jobs:
         run: make sanity-cd
       - name: CSV sanity check 
         run: make check-csv
+  
+  call-assemble:
+    needs: [test]
+    if: ${{ always() && contains(needs.*.result, 'failure') }}
+    uses: ./.github/workflows/assemble-cd.yml
