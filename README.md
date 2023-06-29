@@ -65,9 +65,4 @@ graph LR
     Person -- Approve --> Pull_Request
 ```
 
-### Current Limitations:
-
-1. Catalogs and profiles currently have to be synced by manually executing a GitHub Action workflow.
-2. Content must be assembled using the provided commands. Tasks are run when pull requests are submitted to check whether content is valid and in sync.
-
 To see the available make targets, use `make help`. For information on how to edit the content in this repository, see the [tutorial](./docs/tutorial.md).
