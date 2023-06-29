@@ -24,5 +24,6 @@ jobs:
         with:
           markdown_path: "markdown/components"
           assemble_model: "compdef"
+          branch: ${{ github.head_ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
