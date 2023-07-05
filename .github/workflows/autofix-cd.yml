@@ -1,4 +1,4 @@
-name: Component Definition Assemble
+name: Component Definition Autofix
 on:
   workflow_call:
   workflow_dispatch:
@@ -9,7 +9,7 @@ concurrency:
 
 jobs:
   auto-update:
-    name: Assemble compdef content
+    name: Autofix compdef content
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,12 +18,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref:  ${{ github.head_ref }}
-      - name: Assemble-cd
-        id: assemble-cd
+      - name: Run trestlebot
+        id: autofix-cd
         uses: RedHatProductSecurity/trestle-bot@main
         with:
           markdown_path: "markdown/components"
-          assemble_model: "compdef"
+          oscal_model: "compdef"
           branch: ${{ github.head_ref }}
+          file_pattern: "*.json,markdown/*"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
