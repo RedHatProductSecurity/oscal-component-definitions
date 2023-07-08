@@ -15,17 +15,19 @@ jobs:
     permissions:
       contents: read
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+      - name: Clone
+        uses: actions/checkout@v3
         with:
-          python-version: 3.8
-      - name: Install Trestle
-        run: make trestle-install
-      - name: Validate with Trestle
-        run: make validate
-      - name: Sanity check
-        run: make sanity-cd
+          ref:  ${{ github.head_ref }}
+      - name: Check components
+        id: check-components
+        uses: RedHatProductSecurity/trestle-bot@main
+        with:
+          markdown_path: "markdown/components"
+          oscal_model: "profile"
+          check_only: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: CSV sanity check 
         run: make check-csv
   
@@ -34,4 +36,4 @@ jobs:
     permissions:
       contents: write
     if: ${{ always() && contains(needs.*.result, 'failure') }}
-    uses: ./.github/workflows/assemble-cd.yml
+    uses: ./.github/workflows/autofix-cd.yml
