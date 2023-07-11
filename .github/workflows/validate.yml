@@ -24,7 +24,7 @@ jobs:
         uses: RedHatProductSecurity/trestle-bot@main
         with:
           markdown_path: "markdown/components"
-          oscal_model: "profile"
+          oscal_model: "compdef"
           check_only: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
