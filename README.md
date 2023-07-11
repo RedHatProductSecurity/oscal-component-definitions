@@ -32,37 +32,38 @@ graph LR
         Component_Definitions(Component Definitions)
     end
     subgraph External Sources
-        Official_Catalogs_Profiles(Official OSCAL Catalogs and Profiles)
+        Upstream_Catalogs_Profiles(Upstream OSCAL Catalogs and Profiles)
     end
     subgraph GitHub Actions
-        Catalog_Profile_Import(Catalog/Profile Import)
-        Sync_Profiles(Sync Profiles with Catalogs)
-        Sync_Components(Sync Components with Controls)
-        Trestle_Utility(Trestle Utility)
-        Git(Git)
-        GitHub_CLI(GitHub CLI)
+        Catalog_Profile_Import(Catalog and Profile Import)
+        subgraph Trestle Bot
+            Commit(Commit)
+            Create_Pull_Request(Create Pull Request)
+            Sync_Components(Sync Components with Controls)
+        end
     end
     subgraph Review and Approval
-        Draft_PR((Draft PR))
         Pull_Request(Pull Request)
     end
     Person(Person)
 
-    Official_Catalogs_Profiles -- Updated Content --> Catalog_Profile_Import
-    Catalog_Profile_Import -- Updated Content --> Trestle_Utility
-    Trestle_Utility -- Sanity Checks --> Git
-    Git -- Commit--> GitHub_CLI
-    GitHub_CLI -- Open --> Draft_PR
-    Sync_Profiles -- Catalog Content --> Trestle_Utility
-    Sync_Components -- Profile Content --> Trestle_Utility
-    Draft_PR -- Run Checks --> Pull_Request
+    
+    Upstream_Catalogs_Profiles -- Webhook --> Catalog_Profile_Import
+    Catalog_Profile_Import --> A{Content Updates?}
+    A -- Yes --> Commit
+    Commit --> Create_Pull_Request
+    Create_Pull_Request --> Person
+    A -- No --> B[End]
     Pull_Request -- Merge --> Catalogs
     Pull_Request -- Merge --> Profiles
     Pull_Request -- Merge --> Component_Definitions
-    Catalogs -- Catalog Change Detected --> Sync_Profiles
-    Profiles -- Profile Change Detected --> Sync_Components
-    Person -- Review/Convert --> Draft_PR
+    Profiles --> Sync_Components
+    Catalogs --> Sync_Components
+    Sync_Components --> A
+    Person -- Review --> Pull_Request
     Person -- Approve --> Pull_Request
+    Component_Definitions --> B
 ```
 
-To see the available make targets, use `make help`. For information on how to edit the content in this repository, see the [tutorial](./docs/tutorial.md).
+
+To complete work from a fork, local automation is available. To see the available make targets, use `make help`. For information on how to edit the content in this repository, see the [tutorial](./docs/tutorial.md).
