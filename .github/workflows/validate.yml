@@ -26,8 +26,6 @@ jobs:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
           check_only: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: CSV sanity check 
         run: make check-csv
   
