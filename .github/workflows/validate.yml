@@ -29,7 +29,10 @@ jobs:
       - name: CSV sanity check 
         run: make check-csv
   
-  call-assemble:
+  call-autofix:
     needs: [test]
     if: ${{ always() && contains(needs.*.result, 'failure') }}
     uses: ./.github/workflows/autofix-cd.yml
+    with:
+      branch: ${{ github.head_ref }}
+    secrets: inherit
