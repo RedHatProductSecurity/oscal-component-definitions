@@ -1,7 +1,7 @@
 name: Evaluate component definitions
 on:
   pull_request:
-    types: [ opened, review_requested, ready_for_review, reopened, synchronize ]
+    types: [ opened, ready_for_review, reopened, synchronize ]
     branches:
       - main
     paths:
@@ -26,14 +26,10 @@ jobs:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
           check_only: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: CSV sanity check 
         run: make check-csv
   
   call-assemble:
     needs: [test]
-    permissions:
-      contents: write
     if: ${{ always() && contains(needs.*.result, 'failure') }}
     uses: ./.github/workflows/autofix-cd.yml
