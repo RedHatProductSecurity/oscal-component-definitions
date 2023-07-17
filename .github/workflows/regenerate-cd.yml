@@ -16,18 +16,28 @@ jobs:
       contents: write
       pull-requests: write
     steps:
+      - name: Generate app token
+        uses: tibdex/github-app-token@v1
+        id: get_installation_token
+        with: 
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
+          permissions: >-
+            {"contents": "write", "pull_requests": "write"}
       - name: Clone
-        uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+        uses: actions/checkout@v3
         with:
-          python-version: 3.8
-      - name: Install Trestle
-        run: make trestle-install
-      - name: Regenerate component-definitions
-        run: make regenerate-cd
-      - name: Update and PR
-        run: bash ./vendor/scripts/update.sh -c "sync OSCAL component definitions" -a "$ACTOR" "markdown/*"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ACTOR: "${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          token: ${{ steps.get_installation_token.outputs.token }}
+      - name: Regenerate component definitions
+        id: regenerate
+        uses: RedHatProductSecurity/trestle-bot@main
+        with:
+          markdown_path: "markdown/components"
+          oscal_model: "compdef"
+          file_pattern: "markdown/*"
+          branch: "autoupdate-${{ github.run_id }}"
+          target_branch: "main"
+          skip_assemble: true
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
+          github_token: ${{ steps.get_installation_token.outputs.token }}
