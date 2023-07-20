@@ -33,17 +33,17 @@ jobs:
       - name: Clone
         uses: actions/checkout@v3
         with:
-          token: ${{ steps.get_installation_token.outputs.token }}
-      - name: Setup trestle
-        uses: ./.github/actions/setup-trestle
+          token: 
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: "3.8"
+      - name: Install dependencies
+        run: make trestlebot-install
       - name: Create new component definition with imports
         run: |
-          echo "Creating component definition with name ${OUTPUT}"
-          trestle create --type component-definition --output "${OUTPUT}"
-          python3 scripts/set_default_comp.py --profile_path "profiles/${IMPORT_NAME}/profile.json" \
-          --compdef_path "component-definitions/${OUTPUT}/component-definition.json" --comp_title "${COMP_NAME}" --comp_description "${COMP_DESCRIPTION}" --trestle_root .
+          python3 scripts/set_default_comp.py --profile_name "${IMPORT_NAME}" \
+          --compdef_name "${OUTPUT}" --comp_title "${COMP_NAME}" --comp_description "${COMP_DESCRIPTION}" --trestle_root .
         env:
           OUTPUT:  ${{ github.event.inputs.output }}
           IMPORT_NAME: ${{ github.event.inputs.import_name }}
@@ -61,4 +61,4 @@ jobs:
           skip_assemble: true
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ steps.get_installation_token.outputs.token }}
