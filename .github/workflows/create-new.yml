@@ -33,7 +33,7 @@ jobs:
       - name: Clone
         uses: actions/checkout@v3
         with:
-          token: 
+          token: ${{ steps.get_installation_token.outputs.token }}
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
