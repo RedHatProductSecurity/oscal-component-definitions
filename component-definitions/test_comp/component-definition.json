@@ -1,0 +1,48 @@
+{
+  "component-definition": {
+    "uuid": "d95f3010-7957-4228-a454-060b322b4099",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2023-07-20T19:50:23.707358+00:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.4"
+    },
+    "components": [
+      {
+        "uuid": "85ccf6b8-dfdb-4442-9d31-5bc9aa1ea91c",
+        "type": "service",
+        "title": "My Comp",
+        "description": "My testing comp",
+        "control-implementations": [
+          {
+            "uuid": "82f957d9-e35e-4095-9b7c-7c815665dd53",
+            "source": "profiles/example/profile.json",
+            "description": "",
+            "implemented-requirements": [
+              {
+                "uuid": "89f0cde8-269a-47dd-9cfc-6a5ac3334e2c",
+                "control-id": "ac-1",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "52827881-a0e8-4109-b5c1-e55b282b4f43",
+                "control-id": "ac-2",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "bc795dd9-5c99-4763-9bd4-10addf23150c",
+                "control-id": "ac-4.4",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "cdd87c8f-97a2-4496-9cd0-52766a1fb9f6",
+                "control-id": "sc-1",
+                "description": "REPLACE_ME"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

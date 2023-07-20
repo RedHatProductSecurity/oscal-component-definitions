@@ -1,8 +1,4 @@
 ---
-x-trestle-comp-def-rules:
-  Example:
-    - name: Test-rule_001
-      description: Ensure all of the services are running this test
 x-trestle-param-values:
   ac-1_prm_1:
   ac-01_odp.01:
@@ -15,8 +11,8 @@ x-trestle-param-values:
   ac-01_odp.08:
 x-trestle-global:
   profile:
-    title: FedRAMP Rev 5 High Baseline
-    href: profiles/fedramp_rev5_high/profile.json
+    title: Example
+    href: profiles/example/profile.json
   sort-id: ac-01
 ---
 
@@ -87,12 +83,7 @@ ______________________________________________________________________
 <!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
-
 <!-- Add control implementation description here for control: ac-1 -->
-
-### Rules:
-
-  - Test-rule_001
 
 ### Implementation Status: planned
 
