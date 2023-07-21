@@ -1,0 +1,48 @@
+{
+  "component-definition": {
+    "uuid": "654518d6-4fbe-4648-b5cd-490fe89535aa",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2023-07-21T16:17:30.900623+00:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.4"
+    },
+    "components": [
+      {
+        "uuid": "73a70d8a-5ea9-4f0d-97d5-3076ae830c86",
+        "type": "service",
+        "title": "hello-world",
+        "description": "This is my super cool component that does amazing things",
+        "control-implementations": [
+          {
+            "uuid": "224ac64f-eecb-4dd5-b249-4c5a1eaa1f99",
+            "source": "profiles/example/profile.json",
+            "description": "",
+            "implemented-requirements": [
+              {
+                "uuid": "44e636c3-9f58-4d20-bae6-d92ecf9d4f9d",
+                "control-id": "ac-1",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "2bb04930-8228-4de5-99cd-dd5ba27a6943",
+                "control-id": "ac-2",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "3e9a4d1f-52cb-4aca-8109-06af14c571c5",
+                "control-id": "ac-4.4",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "e8203ee4-1bda-4281-a5d1-a1d9ed91e067",
+                "control-id": "sc-1",
+                "description": "REPLACE_ME"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
