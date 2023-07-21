@@ -1,0 +1,48 @@
+{
+  "component-definition": {
+    "uuid": "272dcd8a-9590-4a09-a5d8-7263934eb07e",
+    "metadata": {
+      "title": "REPLACE_ME",
+      "last-modified": "2023-07-21T15:07:12.238794+00:00",
+      "version": "REPLACE_ME",
+      "oscal-version": "1.0.4"
+    },
+    "components": [
+      {
+        "uuid": "d1451c63-c1d9-4e99-9d65-e4d2783d3507",
+        "type": "service",
+        "title": "Hello World",
+        "description": "My hello world application",
+        "control-implementations": [
+          {
+            "uuid": "6569e467-7bb1-477f-a13d-aa912b2763eb",
+            "source": "profiles/example/profile.json",
+            "description": "",
+            "implemented-requirements": [
+              {
+                "uuid": "28155962-1150-4abe-9cac-4a22943eed07",
+                "control-id": "ac-1",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "ff24c381-ccbf-40db-b5d4-610592d412c0",
+                "control-id": "ac-2",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "cb5801ff-053f-4f4b-a6a1-4df60981dfa6",
+                "control-id": "ac-4.4",
+                "description": "REPLACE_ME"
+              },
+              {
+                "uuid": "65ba24e2-2d0c-48ae-af34-dc3ec5b5a921",
+                "control-id": "sc-1",
+                "description": "REPLACE_ME"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
