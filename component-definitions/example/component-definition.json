@@ -3,7 +3,7 @@
     "uuid": "3f0a6f01-e123-4c9e-8d17-267a831d4471",
     "metadata": {
       "title": "Component definition for Example",
-      "last-modified": "2023-05-08T21:56:09.855332+00:00",
+      "last-modified": "2023-08-25T21:51:04.878758+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
@@ -45,7 +45,7 @@
                   },
                   {
                     "name": "implementation-status",
-                    "value": "planned"
+                    "value": "partial"
                   }
                 ]
               }
