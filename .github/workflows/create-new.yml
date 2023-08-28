@@ -51,7 +51,7 @@ jobs:
           COMP_DESCRIPTION: ${{ github.event.inputs.component_description }}
       - name: Generate and PR new component definition
         id: generate-cd
-        uses: RedHatProductSecurity/trestle-bot@main
+        uses: RedHatProductSecurity/trestle-bot@1d24f1d0f769558716334e4bc34b82406ac811d5
         with:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
