@@ -32,7 +32,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Autofix components
         id: autofix-component
-        uses: RedHatProductSecurity/trestle-bot@main
+        uses: RedHatProductSecurity/trestle-bot@v0.1.0
         with:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
