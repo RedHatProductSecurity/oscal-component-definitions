@@ -28,6 +28,7 @@ jobs:
       - name: Clone
         uses: actions/checkout@v3
         with:
+          ref: ${{ inputs.branch }}
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Transform rules
         id: transform
