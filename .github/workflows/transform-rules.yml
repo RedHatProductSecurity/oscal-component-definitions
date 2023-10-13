@@ -16,8 +16,6 @@ jobs:
   transform-rules:
     name: Transform rules content
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Generate app token
         uses: tibdex/github-app-token@v1
