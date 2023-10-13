@@ -1,4 +1,4 @@
-name: Component Definition Autofix
+name: Transform Rules
 
 on:
   workflow_call:
@@ -7,16 +7,17 @@ on:
         required: true
         type: string
 
-
 # Using concurrency to ensure any branch-modifying workflows are not run at the same time.
 concurrency:
   group: sync-${{ inputs.branch }}
   cancel-in-progress: true
 
 jobs:
-  auto-update:
-    name: Autofix compdef content
+  transform-rules:
+    name: Transform rules content
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Generate app token
         uses: tibdex/github-app-token@v1
@@ -29,15 +30,13 @@ jobs:
       - name: Clone
         uses: actions/checkout@v3
         with:
-          ref: ${{ inputs.branch }}
           token: ${{ steps.get_installation_token.outputs.token }}
-      - name: Autofix components
-        id: autofix-component
-        uses: RedHatProductSecurity/trestle-bot@v0.1.1
+      - name: Transform rules
+        id: transform
+        uses: jpower432/trestle-bot/actions/rules-transform@bug/single-rule-failure
         with:
-          markdown_path: "markdown/components"
-          oscal_model: "compdef"
+          rules_view_path: "rules/"
+          file_pattern: "*.json,rules/*"
           branch: ${{ inputs.branch }}
-          file_pattern: "*.json,markdown/*"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"

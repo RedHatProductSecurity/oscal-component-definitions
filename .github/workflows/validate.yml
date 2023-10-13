@@ -1,13 +1,12 @@
 name: Evaluate component definitions
 on:
   pull_request:
-    types: [ opened, ready_for_review, reopened, synchronize ]
     branches:
       - main
     paths:
       - 'component-definitions/**'
       - 'markdown/components/**'
-      - 'data/**'
+
 jobs:
   test:
     name: Evaluate components
@@ -17,8 +16,6 @@ jobs:
     steps:
       - name: Clone
         uses: actions/checkout@v3
-        with:
-          ref:  ${{ github.head_ref }}
       - name: Check components
         id: check-components
         uses: RedHatProductSecurity/trestle-bot@v0.1.1
@@ -26,12 +23,13 @@ jobs:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
           check_only: true
-      - name: CSV sanity check 
-        run: make check-csv
   
+  # Only autofix if the test job fails and the PR is from the same repo
   call-autofix:
     needs: [test]
-    if: ${{ always() && contains(needs.*.result, 'failure') }}
+    if: |
+      always() && contains(needs.*.result, 'failure')
+      && github.event.pull_request.base.repo.url == github.event.pull_request.head.repo.url
     uses: ./.github/workflows/autofix-cd.yml
     with:
       branch: ${{ github.head_ref }}
