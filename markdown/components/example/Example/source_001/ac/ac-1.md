@@ -31,7 +31,7 @@ x-trestle-global:
     - \[(a)\] Addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance; and
     - \[(b)\] Is consistent with applicable laws, executive orders, directives, regulations, policies, standards, and guidelines; and
 
-  - \[2.\] Procedures to facilitate the implementation of the access control policy and the associated access controls;
+  - \[2.\] Procedures to facilitate implementation of the access control policy and the associated access controls;
 
 - \[b.\] Designate an {{ insert: param, ac-01_odp.04 }} to manage the development, documentation, and dissemination of the access control policy and procedures; and
 
