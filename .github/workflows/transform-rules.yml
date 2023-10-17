@@ -32,7 +32,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Transform rules
         id: transform
-        uses: jpower432/trestle-bot/actions/rules-transform@bug/single-rule-failure
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.3.0
         with:
           rules_view_path: "rules/"
           file_pattern: "*.json,rules/*"
