@@ -1,4 +1,4 @@
-name: Component Definition Autofix
+name: Transform Rules
 
 on:
   workflow_call:
@@ -7,15 +7,14 @@ on:
         required: true
         type: string
 
-
 # Using concurrency to ensure any branch-modifying workflows are not run at the same time.
 concurrency:
   group: sync-${{ inputs.branch }}
   cancel-in-progress: true
 
 jobs:
-  auto-update:
-    name: Autofix compdef content
+  transform-rules:
+    name: Transform rules content
     runs-on: ubuntu-latest
     steps:
       - name: Generate app token
@@ -31,13 +30,12 @@ jobs:
         with:
           ref: ${{ inputs.branch }}
           token: ${{ steps.get_installation_token.outputs.token }}
-      - name: Autofix components
-        id: autofix-component
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.3.0
+      - name: Transform rules
+        id: transform
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.3.0
         with:
-          markdown_path: "markdown/components"
-          oscal_model: "compdef"
+          rules_view_path: "rules/"
+          file_pattern: "*.json,rules/*"
           branch: ${{ inputs.branch }}
-          file_pattern: "*.json,markdown/*"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
