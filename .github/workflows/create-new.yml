@@ -21,6 +21,10 @@ jobs:
   create-component:
     name: Create component definition
     runs-on: ubuntu-latest
+    container:
+      image: quay.io/continuouscompliance/trestle-bot:PSCE-256
+
+
     steps:
       - name: Generate app token
         uses: tibdex/github-app-token@v1
@@ -38,29 +42,28 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.8"
-      - name: Install dependencies
-        run: make trestlebot-install
       - name: Create new component definition with imports
         run: |
-          python3 scripts/set_default_comp.py --profile_name "${IMPORT_NAME}" \
-          --compdef_name "${OUTPUT}" --comp_title "${COMP_NAME}" --comp_description "${COMP_DESCRIPTION}" --trestle_root .
+          trestlebot-create-cd \
+          --profile-name "${IMPORT_NAME}" \
+          --compdef-name "${OUTPUT}" \
+          --component-title "${COMP_NAME}" \
+          --component-description "${COMP_DESCRIPTION}" \
+          --markdown-path "markdown/components" \
+          --commit-message "${COMMIT_MESSAGE}" \
+          --pull-request-title "${PULL_REQUEST_TITLE}" \
+          --branch "component-create-${{ github.run_id }}" \
+          --file-patterns "*.json,markdown/*,*.yaml,*.yml" \
+          --committer-name "trestle-bot[bot]" \
+          --committer-email "136850459+trestle-bot[bot]@users.noreply.github.com" \
+          --author-name "${{ github.actor }}"\
+          --author-email= "${{ github.actor }}@users.noreply.github.com" \
+          --target-branch "main" \
+          --with-token - <<<"${{ steps.get_installation_token.outputs.token }}"
         env:
           OUTPUT:  ${{ github.event.inputs.output }}
           IMPORT_NAME: ${{ github.event.inputs.import_name }}
           COMP_NAME: ${{ github.event.inputs.component_name }}
           COMP_DESCRIPTION: ${{ github.event.inputs.component_description }}
-      - name: Generate and PR new component definition
-        id: generate-cd
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.3.0
-        with:
-          markdown_path: "markdown/components"
-          oscal_model: "compdef"
-          branch: "component-create-${{ github.run_id }}"
-          target_branch: "main"
-          file_pattern: "*.json,markdown/*"
-          skip_assemble: true
-          commit_user_name: "trestle-bot[bot]"
-          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
-          commit_message: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
-          pull_request_title: "Add ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
-          github_token: ${{ steps.get_installation_token.outputs.token }}
+          COMMIT_MESSAGE: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
+          PULL_REQUEST_TITLE: "Add ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
