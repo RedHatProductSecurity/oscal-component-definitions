@@ -4,7 +4,7 @@ on:
    inputs:
       import_name:
         required: true
-        description: Name of profile in trestle workspace to be imported
+        description: Name of profile in trestle workspace to be imported into the component definition
       output:
         required: true
         description: Name of the component definition to create
@@ -14,17 +14,15 @@ on:
       component_description:
         required: true
         description: Description of the component in the generated component definition
-     
+      filter_by_profile:
+        required: false
+        description: Filter the component definition control by a separate profile
      
 
 jobs:
   create-component:
     name: Create component definition
     runs-on: ubuntu-latest
-    container:
-      image: quay.io/continuouscompliance/trestle-bot:PSCE-256
-
-
     steps:
       - name: Generate app token
         uses: tibdex/github-app-token@v1
@@ -42,28 +40,21 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.8"
-      - name: Create new component definition with imports
-        run: |
-          trestlebot-create-cd \
-          --profile-name "${IMPORT_NAME}" \
-          --compdef-name "${OUTPUT}" \
-          --component-title "${COMP_NAME}" \
-          --component-description "${COMP_DESCRIPTION}" \
-          --markdown-path "markdown/components" \
-          --commit-message "${COMMIT_MESSAGE}" \
-          --pull-request-title "${PULL_REQUEST_TITLE}" \
-          --branch "component-create-${{ github.run_id }}" \
-          --file-patterns "*.json,markdown/*,*.yaml,*.yml" \
-          --committer-name "trestle-bot[bot]" \
-          --committer-email "136850459+trestle-bot[bot]@users.noreply.github.com" \
-          --author-name "${{ github.actor }}" \
-          --author-email "${{ github.actor }}@users.noreply.github.com" \
-          --target-branch "main" \
-          --with-token - <<<"${{ steps.get_installation_token.outputs.token }}"
-        env:
-          OUTPUT:  ${{ github.event.inputs.output }}
-          IMPORT_NAME: ${{ github.event.inputs.import_name }}
-          COMP_NAME: ${{ github.event.inputs.component_name }}
-          COMP_DESCRIPTION: ${{ github.event.inputs.component_description }}
-          COMMIT_MESSAGE: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
-          PULL_REQUEST_TITLE: "Add ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
+      - name: Create new component definition
+        id: create-cd
+        uses: jpower432/trestle-bot/actions/create-cd@PSCE-256-P2
+        with:
+          markdown_path: "markdown/components"
+          profile_name: ${{ github.event.inputs.import_name }}
+          component_definition_name: ${{ github.event.inputs.output }}
+          component_title: ${{ github.event.inputs.component_name }}
+          component_description: ${{ github.event.inputs.component_description }}
+          file_pattern: "*.json,rules/*,markdown/*"
+          branch: component-create-${{ github.run_id }}
+          target_branch: "main"
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
+          commit_message: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
+          pull_request_title: "Add ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
+          github_token: ${{ steps.get_installation_token.outputs.token }}
+          filter_by_profile: ${{ github.event.inputs.filter_by_profile }}
