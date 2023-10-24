@@ -56,8 +56,8 @@ jobs:
           --file-patterns "*.json,markdown/*,*.yaml,*.yml" \
           --committer-name "trestle-bot[bot]" \
           --committer-email "136850459+trestle-bot[bot]@users.noreply.github.com" \
-          --author-name "${{ github.actor }}"\
-          --author-email= "${{ github.actor }}@users.noreply.github.com" \
+          --author-name "${{ github.actor }}" \
+          --author-email "${{ github.actor }}@users.noreply.github.com" \
           --target-branch "main" \
           --with-token - <<<"${{ steps.get_installation_token.outputs.token }}"
         env:
