@@ -50,7 +50,7 @@ jobs:
           target_branch: "main"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
-          commit_message: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
+          commit_message: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition [skip ci]"
           pull_request_title: "Add ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
           github_token: ${{ steps.get_installation_token.outputs.token }}
           filter_by_profile: ${{ github.event.inputs.filter_by_profile }}
