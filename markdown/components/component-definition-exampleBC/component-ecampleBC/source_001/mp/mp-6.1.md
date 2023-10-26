@@ -39,6 +39,7 @@ ______________________________________________________________________
 <!-- For implementation status enter one of: implemented, partial, planned, alternative, not-applicable -->
 
 <!-- Note that the list of rules under ### Rules: is read-only and changes will not be captured after assembly to JSON -->
+
 <!-- Add control implementation description here for control: mp-6.1 -->
 
 ### Implementation Status: planned

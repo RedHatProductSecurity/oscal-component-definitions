@@ -3,7 +3,7 @@
     "uuid": "d7876f4c-45be-4b57-9253-7c3747bbe114",
     "metadata": {
       "title": "REPLACE_ME",
-      "last-modified": "2023-10-26T15:47:37.508589+00:00",
+      "last-modified": "2023-10-26T16:04:43.381793+00:00",
       "version": "REPLACE_ME",
       "oscal-version": "1.0.4"
     },
@@ -22,2052 +22,4512 @@
               {
                 "uuid": "0dc87bdc-db0a-451e-9b42-0eef0b8b4b8c",
                 "control-id": "ac-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "800592f2-8a06-4b92-b39c-6541171547c3",
                 "control-id": "ac-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2c282272-93e2-42ea-b55e-ca1f963201db",
                 "control-id": "ac-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e01e2694-8605-4a44-896e-f1944a76d7b5",
                 "control-id": "ac-11.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e3a7c4f0-7cb1-4edd-84a0-823faff0f5fc",
                 "control-id": "ac-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0dd571af-f936-46aa-a883-e284ab38c32d",
                 "control-id": "ac-14",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c404c6b2-b0b8-41e6-a1fd-9b01873072fd",
                 "control-id": "ac-17",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "14f6579d-ffca-4e87-9de9-678c5e9e8680",
                 "control-id": "ac-17.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "968043ae-5582-4ef5-b4db-ac7338e9a655",
                 "control-id": "ac-17.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fa622e72-5528-4f63-b1b0-3a269ab91304",
                 "control-id": "ac-17.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5cb6be43-568b-42ce-8c5f-21ddcd8614c8",
                 "control-id": "ac-17.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "84424fcf-0391-4098-b601-b6885d6d6b54",
                 "control-id": "ac-18",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "70230bc4-d964-42c8-af62-0504d11258c1",
                 "control-id": "ac-18.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3dd0e4a6-b13a-436d-9dfa-f0f17c56e60d",
                 "control-id": "ac-18.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d27e1f2c-313f-49b3-9f84-ee5e5d34c56a",
                 "control-id": "ac-18.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bfa151a1-9d30-4d78-a5f7-8914bf2f63dd",
                 "control-id": "ac-18.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a8af2fa5-08b4-4f3f-95f2-13ae9485828c",
                 "control-id": "ac-19",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "11062bca-7a7e-4826-a1e6-4f4fae0c320f",
                 "control-id": "ac-19.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1f02fcdb-e8df-4144-9403-7be16bf3e429",
                 "control-id": "ac-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "435ca829-4550-4013-8a0c-f15f94343021",
                 "control-id": "ac-2.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3d5d80ba-7927-45cc-a720-8ea6d9fd87d5",
                 "control-id": "ac-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5dbc266a-2c93-4c57-a844-090367ee640b",
                 "control-id": "ac-2.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "08d716c0-6b4c-49f9-a431-22f98190a8f5",
                 "control-id": "ac-2.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d22fb5b4-21ee-4409-93e4-eef18f187414",
                 "control-id": "ac-2.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "acda8b72-892f-494e-88eb-4d60ace7535a",
                 "control-id": "ac-2.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b24bb117-4930-4dd0-b628-3088e92e992c",
                 "control-id": "ac-2.9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ce755224-399a-4714-991d-f12edaae8a3b",
                 "control-id": "ac-2.11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "19f1fc36-2003-445e-bc5a-bc5334a4d897",
                 "control-id": "ac-2.12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "651fa61f-7c62-48c4-9328-d0999cd4cf71",
                 "control-id": "ac-2.13",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5e29419d-37ba-4034-98e4-9e7b7b4520bc",
                 "control-id": "ac-20",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6305bdbd-3670-494f-8431-653b70d71a8c",
                 "control-id": "ac-20.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9045de5a-91a6-44d8-af39-90217734b6e8",
                 "control-id": "ac-20.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f0ddb989-05f7-401d-a92d-ce354bc6a7c0",
                 "control-id": "ac-21",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "47ff27d1-0e0e-40c1-8aa9-6bee6a057eae",
                 "control-id": "ac-22",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fe8cdf31-c35b-41f9-9eab-58ad77a036de",
                 "control-id": "ac-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "408051e5-60db-49cd-b767-ee4cb3bf7ae8",
                 "control-id": "ac-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1fd32be8-c2a7-45f3-8f93-1de17c662fcb",
                 "control-id": "ac-4.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0d06b355-bb7c-44c2-ae7f-f1c1fa069623",
                 "control-id": "ac-4.21",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ca978b4c-0976-486f-9d30-9c11781c2d6c",
                 "control-id": "ac-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "152ce6bd-fc1b-4915-b727-2f0b9baeb743",
                 "control-id": "ac-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7ba1498d-5d2a-43b8-af2e-773016e90e0a",
                 "control-id": "ac-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "afa91387-bbc8-4d29-8a59-0ed865e63465",
                 "control-id": "ac-6.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a5d93d27-748f-4aee-b408-1f7dc91a52e4",
                 "control-id": "ac-6.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c9098068-749d-436b-8281-15fa4d0c66b7",
                 "control-id": "ac-6.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "eac431d6-fa57-4540-9834-fb7f265c2e1b",
                 "control-id": "ac-6.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5996a1d9-219c-4fed-9b77-2bb25c2a4966",
                 "control-id": "ac-6.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2b9047af-0175-4b3a-86d3-3770d4145e53",
                 "control-id": "ac-6.9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cdf5a99d-947b-4fb8-a621-4d798d184653",
                 "control-id": "ac-6.10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d99bf7f2-ca67-4a52-8272-c04d7527234d",
                 "control-id": "ac-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a4d2a595-8440-410e-9adc-54af5bc05e46",
                 "control-id": "ac-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7deeb327-31a6-4393-897a-ee555f56523f",
                 "control-id": "at-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c5439aac-9049-4eb8-a8be-c9c3b3fbd899",
                 "control-id": "at-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9fdbac9f-d6f8-4dfd-8130-261357d554d4",
                 "control-id": "at-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9aeae032-56ac-4577-87c3-7971f2be8cab",
                 "control-id": "at-2.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0b744768-a66e-43f5-a0db-508ed5836dcc",
                 "control-id": "at-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2a96cdb4-70bc-4246-83db-48919cfec8fe",
                 "control-id": "at-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "616fe0cc-5d8b-4742-9ed0-8e59293f61c8",
                 "control-id": "au-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a048df39-bf19-4f54-b2f2-f56d37eb60b5",
                 "control-id": "au-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6068432b-364e-4251-947a-101d61a9e532",
                 "control-id": "au-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5e636940-c4f4-438e-b151-0dbb74539b76",
                 "control-id": "au-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cc11a8b6-da5c-4904-ac2f-cf8410f8cb2f",
                 "control-id": "au-12.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e216e26b-30be-4044-a0fc-b602b63d51ce",
                 "control-id": "au-12.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0b316c61-dcc9-46de-bd35-af5faf13ec8f",
                 "control-id": "au-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0e2eece6-682a-4cc1-a2ac-35e3a26946f9",
                 "control-id": "au-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8da05604-67f0-47d9-b4c5-5e8ed5ea130b",
                 "control-id": "au-3.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2f60922d-b26c-48de-8c6e-99c84ac6b575",
                 "control-id": "au-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9eac4409-2b64-4ba8-a9da-e1f1c5902b9a",
                 "control-id": "au-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7c54a6ab-ee97-485c-bb4a-a4d36d5f0b5b",
                 "control-id": "au-5.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "34f6c87e-8979-48cc-acf5-cc6f6af06c75",
                 "control-id": "au-5.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e98975b0-6416-4bd9-a9fe-e36449650655",
                 "control-id": "au-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a71799b1-e175-4822-a4e7-0a8ca04942a5",
                 "control-id": "au-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d9f3cf29-8a12-4f47-8295-2cffa23fd6bc",
                 "control-id": "au-6.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ef66133b-bea9-48da-93eb-507efacb86cc",
                 "control-id": "au-6.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9db8e92a-5f54-40ed-ba47-6dc04f134c9b",
                 "control-id": "au-6.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "80f2457c-d7ea-448e-b5dc-6bb954b6ac8a",
                 "control-id": "au-6.6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6647b7b0-cd7f-43c8-8aed-6ffc2cc0862b",
                 "control-id": "au-6.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d8015761-0f35-4814-ae31-3464aa4d2af1",
                 "control-id": "au-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1be1b464-35f2-458a-9040-136a649f58ef",
                 "control-id": "au-7.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4e5b20a5-114f-45f2-9b03-f0ffbb4bc5e9",
                 "control-id": "au-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "51ff37c3-5ac9-4c40-ae98-ef13e544f0ce",
                 "control-id": "au-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "14abfd19-5225-45f3-9b11-9869d9143750",
                 "control-id": "au-9.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7ee1b6ad-02c3-42e6-a64e-1e8a45fae0d2",
                 "control-id": "au-9.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bcf510f1-6b22-4f34-a087-d9936f14042e",
                 "control-id": "au-9.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "890d6c29-9e5d-467e-b1ff-8a2ce7c4abd6",
                 "control-id": "ca-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a5abab52-9f70-430e-96d3-ebc952f566d2",
                 "control-id": "ca-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "507600c5-9a4e-472f-87af-01fd46564903",
                 "control-id": "ca-2.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "744bc2df-0610-49a6-8258-295f0ff96731",
                 "control-id": "ca-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8a24d864-bc07-444f-8a8f-3670edd806cf",
                 "control-id": "ca-2.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8cd6bc9b-b773-410a-85b2-6d254d324d81",
                 "control-id": "ca-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0085dd6c-444a-4921-bcf6-3d6392f40dfd",
                 "control-id": "ca-3.6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a5c577f9-5ded-4783-b63e-d5d644a10bf9",
                 "control-id": "ca-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5f952956-2209-487d-92eb-25289fd24eca",
                 "control-id": "ca-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d5e58c81-548f-4179-a36e-f1f4feadd795",
                 "control-id": "ca-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8ec1723d-c204-444a-bd65-3b6a4f3d0491",
                 "control-id": "ca-7.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "700730d8-148f-4244-ada8-41f9bf8a7b6e",
                 "control-id": "ca-7.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ce4ec390-0d49-4ef4-912f-3768a943c1d3",
                 "control-id": "ca-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2951a6a3-4f9b-4968-b237-cb7ede3d5ed9",
                 "control-id": "ca-8.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2c7be959-1374-49e4-87f5-5e34729775dd",
                 "control-id": "ca-8.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3a096fe9-2baf-4df1-aefc-a4508bdb258c",
                 "control-id": "ca-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "eebb2c46-bb0b-4901-ac29-3c6a4b6d5fbe",
                 "control-id": "cm-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d05a962f-3c61-4c97-8c43-3d69f2253818",
                 "control-id": "cm-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d27d2cd8-e2f6-40ad-998f-c71284b96e52",
                 "control-id": "cm-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a8111833-f6b3-4e9a-8fd1-5b9ee9528a23",
                 "control-id": "cm-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "00fb3b42-87c0-4335-9abb-e7a6e405a975",
                 "control-id": "cm-12.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "51e4f8c0-3af6-496c-b3db-f2d64d6eb8bc",
                 "control-id": "cm-14",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f629c73c-2e41-43d6-a770-e4726515a024",
                 "control-id": "cm-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "55580647-8c60-4b92-92d4-a2473cd77b7e",
                 "control-id": "cm-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7f53052e-46e3-498a-9ace-185641095368",
                 "control-id": "cm-2.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "dea987b2-e0fe-43ba-bfbc-7bf8ec9237c3",
                 "control-id": "cm-2.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4e9de410-e749-4e6a-bce8-186dcc052d0d",
                 "control-id": "cm-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6578ab4f-120b-407f-9e76-be2efd675270",
                 "control-id": "cm-3.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8ff1a46d-ae62-406a-9c00-a33c6eece513",
                 "control-id": "cm-3.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fb51a99c-7470-4424-a4c6-99cd2881d5e5",
                 "control-id": "cm-3.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2c7190e8-483b-4df4-92a0-4cdcef35f229",
                 "control-id": "cm-3.6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "49501734-fc34-4306-b0ed-7e0cd5efe621",
                 "control-id": "cm-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4d6c2498-60d3-464a-9a03-05871f9cf14b",
                 "control-id": "cm-4.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e4697714-baf1-4e48-8a7d-8f53a52420ac",
                 "control-id": "cm-4.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "093a56c2-a868-4bcd-938d-aa89493db435",
                 "control-id": "cm-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a1dbff07-6d7c-46aa-9816-08de75c9febc",
                 "control-id": "cm-5.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "28426809-0371-4c49-82ca-c70744578769",
                 "control-id": "cm-5.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ae98f745-2255-497b-89ea-eb73192a71ae",
                 "control-id": "cm-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "68b1b025-4619-43dc-a18c-1d81a095a207",
                 "control-id": "cm-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "49d24be0-0b7f-4f40-9a4b-7c0bb2c0a1a4",
                 "control-id": "cm-6.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8960801e-20d4-4cb2-91cb-bdb4d4ce8f57",
                 "control-id": "cm-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ba577f83-09a8-4569-b17d-93df150ff2d0",
                 "control-id": "cm-7.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7255a7cb-852b-4807-9bb3-9c3f61cdd38d",
                 "control-id": "cm-7.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f0ab787c-0aa8-40b6-9ca8-c90aa6a7337d",
                 "control-id": "cm-7.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f7ba5627-8145-44f2-a234-836804617bc8",
                 "control-id": "cm-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "dfcdf7ee-e7a6-4d29-a42c-38c8b7650f15",
                 "control-id": "cm-8.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ecb4ec6b-e778-47f0-9ff4-5ab3288ee5d8",
                 "control-id": "cm-8.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b853b857-5434-48b1-b2f6-57b2cb8c32c0",
                 "control-id": "cm-8.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "996c8adc-b1f7-4c11-9484-5beb24228e75",
                 "control-id": "cm-8.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7efc18fb-cda9-4797-8e08-7f7dcec1abb0",
                 "control-id": "cm-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "94b3c39e-c21b-4758-8337-07bbea44c3ae",
                 "control-id": "cp-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ba681a4d-c521-46cb-882a-30f1e9c795ad",
                 "control-id": "cp-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3a1f59e5-60c5-4830-9243-db67d2377445",
                 "control-id": "cp-10.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0738992d-f8ba-442a-9100-46b0ef076ecf",
                 "control-id": "cp-10.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6ad40df9-1d9c-4d8d-b106-89e4465e5dba",
                 "control-id": "cp-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f56cc466-d743-40bb-af33-7b060639a67c",
                 "control-id": "cp-2.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fa216623-798f-4066-9b04-518a2875eeeb",
                 "control-id": "cp-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1f87c9fb-d29d-432c-957a-22ef3c3d8132",
                 "control-id": "cp-2.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "11b958e8-5264-40fc-81cd-d2e42331e966",
                 "control-id": "cp-2.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ae25a5c6-3c19-4e36-a2b5-00cd7d9fe9f1",
                 "control-id": "cp-2.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f7e83370-4ff7-4748-b09b-16562f08c5c5",
                 "control-id": "cp-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "877642a2-a2c5-4605-ad44-16c66f1cb277",
                 "control-id": "cp-3.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e1c971ab-ae1f-47cb-8b95-dbd28908447c",
                 "control-id": "cp-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f42299f4-1465-44c3-8452-e058b12e2956",
                 "control-id": "cp-4.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e2b14ab3-51e5-4c6c-b08b-b3346eb5b472",
                 "control-id": "cp-4.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4f1bd842-5800-4e1b-9013-d36639d39339",
                 "control-id": "cp-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4f9c2407-1fa0-421e-9e58-c13d974056e5",
                 "control-id": "cp-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "89e2d5f5-3531-4e86-8dcd-ea461e44d0ee",
                 "control-id": "cp-6.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f28ce086-0278-49d8-8c5d-18809ac5c56a",
                 "control-id": "cp-6.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7c93e567-9c96-4481-a05e-9cd91a3d4b9e",
                 "control-id": "cp-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a940fcc8-e9a9-455d-80b4-7811363c0c79",
                 "control-id": "cp-7.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3d10f40a-0a9d-49a5-8549-ab1d8c3030ee",
                 "control-id": "cp-7.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "eac2c13b-b449-472b-b447-b3104336b52c",
                 "control-id": "cp-7.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "302a652d-6c4a-4d8e-9216-71697dfb93ea",
                 "control-id": "cp-7.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "64abc13b-4781-4e4a-a209-577a5bc3d83c",
                 "control-id": "cp-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3bf90d66-8363-4952-9a45-21fb4b03b37c",
                 "control-id": "cp-8.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2d2b93a8-a6ec-42f7-a20d-8c3abe07fff6",
                 "control-id": "cp-8.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "737ac269-1881-4165-bf50-5911a920eeb9",
                 "control-id": "cp-8.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fd69141c-60aa-4667-84ac-19ddb4544651",
                 "control-id": "cp-8.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "70764831-d8d5-48e7-b6a6-8157ec2eb40f",
                 "control-id": "cp-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "592367fc-bc5a-45aa-90b6-99a683cca2cb",
                 "control-id": "cp-9.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "76ceda4d-1e3a-4dd2-b0bc-ebe265cc3c3c",
                 "control-id": "cp-9.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "18d61119-c5f4-434c-8b62-a0ebd19f9348",
                 "control-id": "cp-9.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c333a33a-ef26-4234-8c3e-07e5a4a2481f",
                 "control-id": "cp-9.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5b112a99-939d-4751-8dd7-b1257414b862",
                 "control-id": "cp-9.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fd9df93f-bdfc-498d-864c-cf221ad92604",
                 "control-id": "ia-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ea422132-eb49-4b09-84bc-8b91d68f271b",
                 "control-id": "ia-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "41060339-682e-4307-9e8c-95aa95e04d64",
                 "control-id": "ia-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "31ee3b7e-3e24-4aa5-97e6-448b8ca22833",
                 "control-id": "ia-12.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "89d3429b-e107-4a3a-b8fa-b39e1faa53fa",
                 "control-id": "ia-12.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "01d4560c-2c15-44fb-a54e-e37adf0f2142",
                 "control-id": "ia-12.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "68592c71-a75f-4a20-b6c9-7d2948c4247f",
                 "control-id": "ia-12.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ee1206cc-fb0c-4da2-85b9-44282e479c6b",
                 "control-id": "ia-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2bbc2866-b4b8-4bbd-b1a4-379fba81d34f",
                 "control-id": "ia-2.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a6c9b657-3225-449e-94e5-1a048d6bd180",
                 "control-id": "ia-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bc8cdf6e-a90d-4fda-9ca0-618efe7db742",
                 "control-id": "ia-2.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "01b0a6e1-38ca-4fff-86a2-8428323a8d2b",
                 "control-id": "ia-2.6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5904b5fa-d8b6-4c81-a879-b173d78fc04a",
                 "control-id": "ia-2.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a57c058f-9758-482a-9afe-7908b66171f4",
                 "control-id": "ia-2.12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "616c8b2c-4db2-4f8a-ac2a-cfba6674d72c",
                 "control-id": "ia-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6933d6f0-f1a6-4a40-99cc-a65c985903e4",
                 "control-id": "ia-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ba00a5ca-1a4a-4ab7-a064-8bd12ddeb202",
                 "control-id": "ia-4.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2022c734-207d-4e3a-b6c4-ebeae50734da",
                 "control-id": "ia-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d256ac44-b256-4dd4-bbbe-02b14b8a5ac2",
                 "control-id": "ia-5.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a83bee52-c5e2-4431-96b2-9af886d9d9f9",
                 "control-id": "ia-5.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5875f516-bf6a-4b4a-9719-c238f0eb45ee",
                 "control-id": "ia-5.6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e15f194d-b156-4ae0-91b4-7274900c22d4",
                 "control-id": "ia-5.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6eb13e9e-65a2-43af-a825-f3b84079ee57",
                 "control-id": "ia-5.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "213590db-9d03-4288-ae5b-73265efcb998",
                 "control-id": "ia-5.13",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c2e45302-9792-4593-8909-67a46b8ca195",
                 "control-id": "ia-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f24a3690-f0bb-4bfd-97cc-fbf581e3d036",
                 "control-id": "ia-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "277bb0b7-58a5-4b2d-9566-ee1ca5661ed8",
                 "control-id": "ia-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a894fad2-7972-4dbe-96d4-11958aab54b3",
                 "control-id": "ia-8.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "490cfac8-ecda-46e4-b7f9-df8b5081486e",
                 "control-id": "ia-8.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0bcf601b-0448-42a9-8aff-351bea832c70",
                 "control-id": "ia-8.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1c37933e-9695-481d-903b-0da7a412536a",
                 "control-id": "ir-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4087514c-d5ed-43e7-b2a0-b2a67c723067",
                 "control-id": "ir-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8ae9649e-3e7a-4287-8c40-506fe05410d1",
                 "control-id": "ir-2.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "55840efa-272c-48b3-b494-0c7214c59197",
                 "control-id": "ir-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4dccb88f-0b4e-40d3-bf9b-40102ea93f14",
                 "control-id": "ir-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "220cfbae-89b6-497f-9f3d-759cea4e7601",
                 "control-id": "ir-3.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e9230c1c-a3fa-4aa7-b04c-40290bd49c21",
                 "control-id": "ir-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e3557105-84d6-437b-afb4-db6a8c115081",
                 "control-id": "ir-4.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "849bf98b-02e9-4901-b791-aa85e7616d18",
                 "control-id": "ir-4.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f6af598d-b864-445f-81d3-d0df981d3d2c",
                 "control-id": "ir-4.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d5c709ab-3fd2-4290-b496-eb02b3bf52bd",
                 "control-id": "ir-4.6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "19e30f70-9481-4866-9f27-5e199cbb329b",
                 "control-id": "ir-4.11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "37d20f69-ca31-4c58-86d3-a1105b223673",
                 "control-id": "ir-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "668ef507-2936-45d5-8754-d17805f2b4ec",
                 "control-id": "ir-5.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3c202e44-9713-4cf3-afaf-0aab011905fc",
                 "control-id": "ir-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "502c6378-f1e0-413f-b40d-1d34a8e46b37",
                 "control-id": "ir-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b80461ed-2b1f-4677-be1b-d565aaeaa6d8",
                 "control-id": "ir-6.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b6f27e28-303d-4db8-8bed-950e3391ce6b",
                 "control-id": "ir-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c5669705-3b90-4c90-a4ba-48edd9c02856",
                 "control-id": "ir-7.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d5ce6e85-12ba-4c1f-bcad-acf73fd37e82",
                 "control-id": "ir-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cffbe992-63cb-4e40-8b5b-3b0c252c9a0c",
                 "control-id": "ir-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "930c575c-a37e-4356-bdb8-1b47a5ca9105",
                 "control-id": "ir-9.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6d208e96-304a-4f40-81e0-ac0db65db72d",
                 "control-id": "ir-9.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cdbe3e4c-0d07-4ec3-9c63-20f5588d5b87",
                 "control-id": "ir-9.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9911917d-d990-4240-a8fd-b5344744b0cb",
                 "control-id": "ma-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ddfeee42-b5de-4b90-a5ce-1c8ddf9c3726",
                 "control-id": "ma-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "324be9ec-f488-42d0-8fdc-d714773cdbe3",
                 "control-id": "ma-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "67b7ff8d-7e9d-4e27-82a6-745f166facde",
                 "control-id": "ma-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ef1d7752-8896-41c3-af75-7f7db6e31725",
                 "control-id": "ma-3.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "23e36b38-2963-42dc-ab35-de4a0e377f76",
                 "control-id": "ma-3.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5b2e5364-2d0a-4804-a7d3-088140bc649d",
                 "control-id": "ma-3.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7c63d549-4c57-4eab-a670-0ff49f14f64b",
                 "control-id": "ma-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7210d71c-4bd7-4128-9867-98d9dfb560f4",
                 "control-id": "ma-4.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9e8c244d-bb5f-48f9-9ece-484e0541a72f",
                 "control-id": "ma-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2b4456c8-7341-4ad3-914f-004313d574d2",
                 "control-id": "ma-5.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6f5fcd8b-009f-4cf6-a018-77cbaf32af93",
                 "control-id": "ma-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "38666437-bdb6-44cd-9c4a-58451d97ded2",
                 "control-id": "mp-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f7c1b97c-70ec-4c91-b90f-a08952802436",
                 "control-id": "mp-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2e157359-2de5-4288-8b80-67c073d6ad88",
                 "control-id": "mp-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d3c5a038-e73c-49e9-a996-794d953a2053",
                 "control-id": "mp-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "22998293-7294-426c-b848-7b434daed8f1",
                 "control-id": "mp-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "313efd5b-d5bd-4612-b8d1-115f611f45ac",
                 "control-id": "mp-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bfac43b2-422b-4945-ab28-738de00bd286",
                 "control-id": "mp-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2aa77d74-349a-4f33-9981-9b2ad522b50e",
                 "control-id": "mp-6.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "931ba75a-6a50-4120-942b-05c1f21e2d28",
                 "control-id": "mp-6.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2b47ec6d-63c8-4ada-8c99-25f8daf75d3c",
                 "control-id": "mp-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2134e7dd-ecf6-4906-9924-1b75aa0200d1",
                 "control-id": "pe-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9fa80a98-68ba-42fc-9420-2deb22e95870",
                 "control-id": "pe-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "88e2d4a7-0dec-4de5-9751-0e607b1cf229",
                 "control-id": "pe-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "10995053-c209-4731-baf9-07086dc0d6cd",
                 "control-id": "pe-11.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "645749e6-310b-42d4-8804-65599fcfbd37",
                 "control-id": "pe-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e1dc4277-ade8-4558-af9f-dd9d4bb7deb2",
                 "control-id": "pe-13",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "41356c96-958e-491d-a96d-0bbdb1eae7ee",
                 "control-id": "pe-13.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ba1af51d-2f67-4128-b6a0-f2f72ee340a1",
                 "control-id": "pe-13.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7cf49d79-27f6-447f-96a4-5e71204a6201",
                 "control-id": "pe-14",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "68a29815-b486-4309-b9dc-4bacb670ac85",
                 "control-id": "pe-14.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3d59aaba-e2b1-4b62-a664-3293b7061cd8",
                 "control-id": "pe-15",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3ce3f264-48d6-485f-bdf0-3b6de4103ab8",
                 "control-id": "pe-15.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "af0989d3-82c8-4661-9572-9aa8c6139e4a",
                 "control-id": "pe-16",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9b77ba6d-1007-41c3-a8be-d1b9a082c030",
                 "control-id": "pe-17",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7deafaee-2d34-4599-871a-f56087c71e33",
                 "control-id": "pe-18",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a81ac766-346f-47f3-a99e-570c3c99f27d",
                 "control-id": "pe-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3087b6d8-0a46-4e66-a8ee-b448e7669f8f",
                 "control-id": "pe-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "78ce2310-60f8-4fdb-b9cb-fb4cae9bcde0",
                 "control-id": "pe-3.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "59be9a9d-86a0-4a57-8071-54585cdc78bf",
                 "control-id": "pe-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c2e088fc-424e-4751-bfc5-da605049554b",
                 "control-id": "pe-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "826d2bed-1c58-44df-a7da-45b59a36e9e7",
                 "control-id": "pe-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "604f222d-371d-4048-a921-d0c3de4ddce0",
                 "control-id": "pe-6.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ca227759-71fb-4da8-9403-81df1f84f9a9",
                 "control-id": "pe-6.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8fd47547-d263-44c0-9f01-91972d3a5ded",
                 "control-id": "pe-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e7e83e94-fb6a-4e18-acb9-6fb892d93857",
                 "control-id": "pe-8.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "adf51d2c-eb39-4dad-9876-02c1eac2f3d1",
                 "control-id": "pe-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "708842e1-cf39-4d3a-a0d8-6f73fadb151c",
                 "control-id": "pl-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e6efdfee-611f-4a58-a8d6-195c67599894",
                 "control-id": "pl-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3a47fdc9-7af9-48fc-8227-045ee4490c94",
                 "control-id": "pl-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cc4dbaf9-665f-467e-ae3c-9222ad75e0aa",
                 "control-id": "pl-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f479bc6c-b821-4001-bc16-dae81e768ffc",
                 "control-id": "pl-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "af5a8d22-d78d-4c23-9cc7-07f2b9add201",
                 "control-id": "pl-4.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "73a3ecd2-000f-46b6-a05b-126b7961186f",
                 "control-id": "pl-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b78de2a5-cf79-43d1-a677-3ccc32984557",
                 "control-id": "ps-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "db49b5fb-9f00-4d6a-bc4e-097dbb7153a4",
                 "control-id": "ps-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9abe368a-16c0-4054-80bc-cd33b9468eee",
                 "control-id": "ps-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "dac22175-6a62-4d91-ad26-96b941acc84e",
                 "control-id": "ps-3.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a48ba937-0c94-49d3-a963-200efd4587f7",
                 "control-id": "ps-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d8e1d0fc-48ed-4f27-964e-4d82b11ff9ff",
                 "control-id": "ps-4.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4ba29f31-7fa6-42ca-b429-b21b7502662e",
                 "control-id": "ps-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "94a0e07b-7079-4a2a-8efa-d97658abbb8d",
                 "control-id": "ps-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ab9dfa98-6023-40d5-840c-29a52d812966",
                 "control-id": "ps-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "83735eb6-eedc-41f8-b7cb-bc525f85aa2d",
                 "control-id": "ps-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5b165bc1-dc81-43b6-baa7-8d791e957303",
                 "control-id": "ps-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b31935c5-a9fc-4ff0-ac78-40c129d2c130",
                 "control-id": "ra-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b421da05-1b64-49f6-b76a-f74f75209e95",
                 "control-id": "ra-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ee2db63b-bbda-489a-a10a-e8b9bb4b524f",
                 "control-id": "ra-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8a62d778-ade5-4603-8255-d8b8beea88d5",
                 "control-id": "ra-3.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f015e60c-6af6-4fe5-81d9-fe81d6fb5ea3",
                 "control-id": "ra-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5dc0e3c1-b563-4122-8aa0-8ea3aac71bb7",
                 "control-id": "ra-5.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "34b6d444-55c4-4e43-a9c1-a800f456eb58",
                 "control-id": "ra-5.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5853b485-fe0c-4f71-ac52-09a13382a0ce",
                 "control-id": "ra-5.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "18d90d92-7002-414c-810f-80a62b871c9b",
                 "control-id": "ra-5.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "dfd356fd-874b-4fc7-9e40-36c298fe3d4a",
                 "control-id": "ra-5.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ac2bf97c-06c0-42e1-8362-9a81414c0d7b",
                 "control-id": "ra-5.11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4cd09479-8638-41ff-90b1-e409158372ec",
                 "control-id": "ra-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fb36b060-a64c-4e21-8b27-e68cae91e62e",
                 "control-id": "ra-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5405f294-1423-4368-8e7d-36a15b013426",
                 "control-id": "sa-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0e1e5918-27fb-416d-8d07-eaf6f0ea4211",
                 "control-id": "sa-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5bad83a2-82a0-43bc-8d6e-7cd5ce741b48",
                 "control-id": "sa-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "255e67b5-2c74-494e-813b-0d3e100fad85",
                 "control-id": "sa-11.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c4797ca7-f863-4be9-b9f6-1910d78b5203",
                 "control-id": "sa-11.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d4ad3649-6b88-4215-86ee-440512742b3f",
                 "control-id": "sa-15",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7ca466f4-e05a-4db4-9ab1-8eff5cefd89b",
                 "control-id": "sa-15.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5c853ecb-3027-421c-aaaa-9c90b2a3c5a4",
                 "control-id": "sa-16",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bdd205bd-000c-40bf-a039-e6f21b9a8d7d",
                 "control-id": "sa-17",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "33cbf722-62f8-4aed-8749-e33ff87d00d2",
                 "control-id": "sa-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ba6f16cf-23e0-467b-adfd-2cead33772e4",
                 "control-id": "sa-21",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e55ce7cb-8f92-4409-beea-a00f208b17db",
                 "control-id": "sa-22",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d532d0a1-17a7-4cfd-bd7b-41ff59f55356",
                 "control-id": "sa-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3e3f5af2-ec71-4e55-bc44-5c8ecb221bba",
                 "control-id": "sa-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ca1fed09-1590-48cb-8e41-6f28d2f43044",
                 "control-id": "sa-4.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b0baf034-aa44-4bf6-9b76-f784c6b0ba22",
                 "control-id": "sa-4.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9ec61972-9ae5-43f5-bd96-c12fd2706fe4",
                 "control-id": "sa-4.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bf3cb41d-711d-4c52-a195-1f174a3eca9e",
                 "control-id": "sa-4.9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e84d3689-4d8a-44cd-8103-94f090638511",
                 "control-id": "sa-4.10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a22dd157-d390-4d41-8f79-662db098fd0b",
                 "control-id": "sa-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "673c1882-fdc7-4171-add6-a669691655d0",
                 "control-id": "sa-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f730184e-c121-45b4-88e8-af5536dadd1e",
                 "control-id": "sa-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7e7433f9-b8c9-4465-851d-53caad7ef611",
                 "control-id": "sa-9.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6484776c-336c-44e0-9578-63ef48d13436",
                 "control-id": "sa-9.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9652cb4d-a766-4528-964f-6ccbea04d789",
                 "control-id": "sa-9.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b5fdedba-e839-41ce-be3a-a1ef39294b6c",
                 "control-id": "sc-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fdf3b802-0907-4a0a-b615-9c3cebbedf56",
                 "control-id": "sc-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d88b81f8-b467-4f6d-b4e1-00ec4dff2d95",
                 "control-id": "sc-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8e6c1cf0-1238-4cef-9fbe-679dead0d8c1",
                 "control-id": "sc-12.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "7f1b4414-20de-49c3-9fd8-241dd8a1c0f9",
                 "control-id": "sc-13",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b0b7cb5b-9586-442f-832c-104b0b5d9fba",
                 "control-id": "sc-15",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ab404e21-bc2f-4365-9d47-c9497987157a",
                 "control-id": "sc-17",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "37a2903c-d635-4f40-9007-c51bf98dc1c8",
                 "control-id": "sc-18",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "6a7d56ba-8298-45b6-a07a-227341364606",
                 "control-id": "sc-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f89d25a0-87bc-4578-a0fd-d6792e1cdc94",
                 "control-id": "sc-20",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3423ad60-a1b2-40ba-bf01-d30f1a2731be",
                 "control-id": "sc-21",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "028521db-386d-4c17-be33-183709beedec",
                 "control-id": "sc-22",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1624ef2e-123d-4a5b-8885-49bd4d01b133",
                 "control-id": "sc-23",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "d9a49974-a2f5-4470-a876-ac43c580c030",
                 "control-id": "sc-24",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b7e1e785-7c45-484a-8700-4d2368acfe0f",
                 "control-id": "sc-28",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1dc36dbf-bfc1-49ae-8000-a9909c4c6438",
                 "control-id": "sc-28.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "59ba4a09-5673-48d8-b0d3-6502937d098a",
                 "control-id": "sc-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f966d27c-2aed-4b21-8d58-d22c74a5ca4f",
                 "control-id": "sc-39",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bfd0f278-5b23-4dc0-bbfd-aa845b4afd19",
                 "control-id": "sc-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "eeda1b2c-6638-4b23-a6f6-c6dcc75de62a",
                 "control-id": "sc-45",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c5c2c0c7-097c-48b9-aa96-08cc80db8d62",
                 "control-id": "sc-45.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9746fd22-7760-4d2c-a9ae-6ccc96f3afc5",
                 "control-id": "sc-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "88817e8b-31b6-49c6-9010-bda07ff00b6c",
                 "control-id": "sc-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "50280452-533d-4dfe-ad41-739f2b14b1be",
                 "control-id": "sc-7.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "73622c17-1870-49d8-8cf2-8be2999e52a6",
                 "control-id": "sc-7.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "2567e704-6d44-4cbf-8acd-a908e23befc1",
                 "control-id": "sc-7.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "c0ceb4d2-390e-4c6d-b98f-8e484cc4886c",
                 "control-id": "sc-7.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ddbf048c-7239-4b63-9945-51f4d5563fde",
                 "control-id": "sc-7.8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8d614f1b-1985-48fc-b5fe-0265a7ec275a",
                 "control-id": "sc-7.10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "966faddf-7184-40c8-9551-4008fe43a940",
                 "control-id": "sc-7.12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bde54e6e-04b1-4652-a6ab-cee2119f5c6e",
                 "control-id": "sc-7.18",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "bb00faaa-66fb-42df-a6f4-5b133a41288b",
                 "control-id": "sc-7.20",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f0010a1e-5b09-437d-85b6-bfb7e6708658",
                 "control-id": "sc-7.21",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1724a6e5-d12d-4596-8250-f40ca3944caa",
                 "control-id": "sc-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8badfa11-9219-41a7-86b2-8c40c01fbdf0",
                 "control-id": "sc-8.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9b716d1d-89c8-4b67-a4e4-d5190ba42b0b",
                 "control-id": "si-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "32f29312-d3b5-461b-a736-d1ec1f05ea55",
                 "control-id": "si-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "e07a354a-ce04-4a53-8ec6-090930f575b7",
                 "control-id": "si-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f4b84fa9-1553-4df9-bfd9-0438adfa85f7",
                 "control-id": "si-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5d2321f2-80e5-434f-ab9a-030d8a58ee6f",
                 "control-id": "si-16",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "dd966bdd-1468-4148-94b5-374c0444e6bb",
                 "control-id": "si-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cff4c91b-9fb4-4240-9d04-2d31f6813d99",
                 "control-id": "si-2.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4870a86c-f6d3-4b3d-9373-36856de9d44b",
                 "control-id": "si-2.3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0dd94797-6895-4513-8de5-9eb283948b10",
                 "control-id": "si-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "06c729a2-768a-499e-b55f-e6a15fb6b6e8",
                 "control-id": "si-4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "561be476-d84a-4ee1-b26b-2eae458cd0c3",
                 "control-id": "si-4.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0a9ff24f-69ab-44ee-a12c-0b1efaabb120",
                 "control-id": "si-4.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "efbf37e1-29bf-4b72-8115-3c2fd21756c6",
                 "control-id": "si-4.4",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1663ae19-2710-4f10-84dd-6837057bccae",
                 "control-id": "si-4.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f6fc62d8-c4cf-4516-af13-067b8c8262b7",
                 "control-id": "si-4.10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "93558b3d-c560-4279-baa2-713bb6ee1920",
                 "control-id": "si-4.11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "747f6483-82ed-44c9-9ebd-4210048735db",
                 "control-id": "si-4.12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a892711d-4b05-475a-a851-21f74cc16827",
                 "control-id": "si-4.14",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "393e5090-50fd-41e1-a6b9-f4c54571ce50",
                 "control-id": "si-4.16",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "aa4ffdb2-4498-414b-bf52-72b2e8a9b5f4",
                 "control-id": "si-4.18",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "660bad19-37ba-4a6b-bbda-fc2b3f5ab3e9",
                 "control-id": "si-4.19",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5f29bab1-b635-4f63-9abe-3865e15a6524",
                 "control-id": "si-4.20",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "b1ab3b73-5447-4b19-a57c-ceb60067c411",
                 "control-id": "si-4.22",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "4a032d0b-f76f-4ac3-9678-330ed8472f51",
                 "control-id": "si-4.23",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0bf348e6-3190-4ebb-a308-5ee3a4e83641",
                 "control-id": "si-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a741306f-5aec-432e-a5f8-7b010d9df36b",
                 "control-id": "si-5.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9bfe70a0-fd7e-4d43-9bcc-f505aa48b13e",
                 "control-id": "si-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1426c0c2-e4df-4a5d-bcdc-e30c9384ec63",
                 "control-id": "si-7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "42a441b0-8ae3-485a-83ac-a71d0619ad99",
                 "control-id": "si-7.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "0b489d6e-b2e3-414f-8d0b-cee67fe6032c",
                 "control-id": "si-7.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a06ca6be-6ce7-4fe4-bab2-412bb1da6af5",
                 "control-id": "si-7.5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "765a388d-e2fa-41ce-b8f3-bc76b457e326",
                 "control-id": "si-7.7",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "701092fd-93f8-448f-96e2-d62663a20fbe",
                 "control-id": "si-7.15",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fc2b25c9-067a-4a8f-baef-232fb83787cc",
                 "control-id": "si-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "06209208-eaa7-43fd-91a9-078d9667ab2f",
                 "control-id": "si-8.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9b95c4da-7e94-45cd-9c50-90d7d27aee06",
                 "control-id": "sr-1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fb1e905d-3d34-467e-894c-c8e0b43399f5",
                 "control-id": "sr-10",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "9537456b-214c-4743-a8a0-9fd89936fd7c",
                 "control-id": "sr-11",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "1ff276d1-cb50-46e0-a750-2e25e2f8a0e5",
                 "control-id": "sr-11.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "69617090-d409-4fae-ab8c-0ee14d4fb22e",
                 "control-id": "sr-11.2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "a9a5c8d5-de0c-41e5-8eb6-6b68777a30a8",
                 "control-id": "sr-12",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "470e69f0-5ac8-4036-a752-665b47666a20",
                 "control-id": "sr-2",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "5fd9ce1d-5132-4990-9abc-b2efa56b4530",
                 "control-id": "sr-2.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "3f856e7b-69bd-4b2b-9c5a-095be35ffc7e",
                 "control-id": "sr-3",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "f7834527-fdc1-4607-8734-653ace5d8c91",
                 "control-id": "sr-5",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "ee49b17e-5665-4884-8a8d-6c0bc1518a0f",
                 "control-id": "sr-6",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "fe365e1c-e8bb-4a14-af99-7dcf13b6379c",
                 "control-id": "sr-8",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "cb777ad6-4436-4cd8-8f00-8a0e8e4f768c",
                 "control-id": "sr-9",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               },
               {
                 "uuid": "8bba30ec-ca36-4422-9530-3820ffb63535",
                 "control-id": "sr-9.1",
-                "description": "REPLACE_ME"
+                "description": "REPLACE_ME",
+                "props": [
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
+                  }
+                ]
               }
             ]
           }
