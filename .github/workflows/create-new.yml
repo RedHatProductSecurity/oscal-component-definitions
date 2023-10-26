@@ -4,7 +4,7 @@ on:
    inputs:
       import_name:
         required: true
-        description: Name of profile in trestle workspace to be imported
+        description: Name of profile in trestle workspace to be imported into the component definition
       output:
         required: true
         description: Name of the component definition to create
@@ -14,7 +14,9 @@ on:
       component_description:
         required: true
         description: Description of the component in the generated component definition
-     
+      filter_by_profile:
+        required: false
+        description: Filter the component definition control by a separate profile
      
 
 jobs:
@@ -34,33 +36,21 @@ jobs:
         uses: actions/checkout@v3
         with:
           token: ${{ steps.get_installation_token.outputs.token }}
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.8"
-      - name: Install dependencies
-        run: make trestlebot-install
-      - name: Create new component definition with imports
-        run: |
-          python3 scripts/set_default_comp.py --profile_name "${IMPORT_NAME}" \
-          --compdef_name "${OUTPUT}" --comp_title "${COMP_NAME}" --comp_description "${COMP_DESCRIPTION}" --trestle_root .
-        env:
-          OUTPUT:  ${{ github.event.inputs.output }}
-          IMPORT_NAME: ${{ github.event.inputs.import_name }}
-          COMP_NAME: ${{ github.event.inputs.component_name }}
-          COMP_DESCRIPTION: ${{ github.event.inputs.component_description }}
-      - name: Generate and PR new component definition
-        id: generate-cd
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.3.0
+      - name: Create new component definition
+        id: create-cd
+        uses: RedHatProductSecurity/trestle-bot/actions/create-cd@v0.4.1
         with:
           markdown_path: "markdown/components"
-          oscal_model: "compdef"
-          branch: "component-create-${{ github.run_id }}"
+          profile_name: ${{ github.event.inputs.import_name }}
+          component_definition_name: ${{ github.event.inputs.output }}
+          component_title: ${{ github.event.inputs.component_name }}
+          component_description: ${{ github.event.inputs.component_description }}
+          file_pattern: "*.json,rules/*,markdown/*"
+          branch: component-create-${{ github.run_id }}
           target_branch: "main"
-          file_pattern: "*.json,markdown/*"
-          skip_assemble: true
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
-          commit_message: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
+          commit_message: "adds ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition [skip ci]"
           pull_request_title: "Add ${{ github.event.inputs.component_name }} component to ${{ github.event.inputs.output }} component definition"
           github_token: ${{ steps.get_installation_token.outputs.token }}
+          filter_by_profile: ${{ github.event.inputs.filter_by_profile }}

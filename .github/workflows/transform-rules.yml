@@ -32,9 +32,8 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Transform rules
         id: transform
-        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.3.0
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.4.1
         with:
-          rules_view_path: "rules/"
           file_pattern: "*.json,rules/*"
           branch: ${{ inputs.branch }}
           commit_user_name: "trestle-bot[bot]"
