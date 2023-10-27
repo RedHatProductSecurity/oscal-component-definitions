@@ -1,15 +1,82 @@
 {
   "component-definition": {
-    "uuid": "19fd6f22-8055-4c2a-8bfb-726d1a29a5a4",
+    "uuid": "9d83b834-7a25-4a3d-9525-07bf9e97bb2c",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2023-10-27T14:58:23+00:00",
+      "last-modified": "2023-10-27T15:10:00+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "120b2197-66ba-45f4-a7ec-ff8a9c7baf80",
+        "uuid": "616e4e28-0aa9-4391-8ff8-8e55eb42209c",
+        "type": "service",
+        "title": "Example",
+        "description": "Example Application",
+        "props": [
+          {
+            "name": "Rule_Id",
+            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "value": "Test-rule_001",
+            "remarks": "rule_set_00"
+          },
+          {
+            "name": "Rule_Description",
+            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "value": "Ensure all of the services are running these tests",
+            "remarks": "rule_set_00"
+          },
+          {
+            "name": "Parameter_Id",
+            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "value": "prm_1",
+            "remarks": "rule_set_00"
+          },
+          {
+            "name": "Parameter_Description",
+            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "value": "prm_1 description",
+            "remarks": "rule_set_00"
+          },
+          {
+            "name": "Parameter_Value_Alternatives",
+            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "value": "{'default': '5%', '5pc': '5%', '10pc': '10%', '15pc': '15%', '20pc': '20%'}",
+            "remarks": "rule_set_00"
+          }
+        ],
+        "control-implementations": [
+          {
+            "uuid": "6399d9f7-cd73-4579-8242-548aecb48bfd",
+            "source": "profiles/fedramp_rev5_high/profile.json",
+            "description": "FedRAMP REV5 High Baseline",
+            "set-parameters": [
+              {
+                "param-id": "prm_1",
+                "values": [
+                  "5%"
+                ]
+              }
+            ],
+            "implemented-requirements": [
+              {
+                "uuid": "64a6329d-8d44-48f1-91bb-099a067d19d1",
+                "control-id": "ac-1",
+                "description": "",
+                "props": [
+                  {
+                    "name": "Rule_Id",
+                    "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+                    "value": "Test-rule_001"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "uuid": "2485d619-f4d7-4814-9a5f-fbb57675803b",
         "type": "service",
         "title": "my-comp",
         "description": "My testing comp",
@@ -18,239 +85,239 @@
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-si-3",
-            "remarks": "rule_set_00"
+            "remarks": "rule_set_01"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for si-3",
-            "remarks": "rule_set_00"
+            "remarks": "rule_set_01"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-si-4",
-            "remarks": "rule_set_01"
+            "remarks": "rule_set_02"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for si-4",
-            "remarks": "rule_set_01"
+            "remarks": "rule_set_02"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-au-3",
-            "remarks": "rule_set_02"
+            "remarks": "rule_set_03"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for au-3",
-            "remarks": "rule_set_02"
+            "remarks": "rule_set_03"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-si-2",
-            "remarks": "rule_set_03"
+            "remarks": "rule_set_04"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for si-2",
-            "remarks": "rule_set_03"
+            "remarks": "rule_set_04"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-3",
-            "remarks": "rule_set_04"
+            "remarks": "rule_set_05"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ac-3",
-            "remarks": "rule_set_04"
+            "remarks": "rule_set_05"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ia-2",
-            "remarks": "rule_set_05"
+            "remarks": "rule_set_06"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ia-2",
-            "remarks": "rule_set_05"
+            "remarks": "rule_set_06"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-cm-6",
-            "remarks": "rule_set_06"
+            "remarks": "rule_set_07"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for cm-6",
-            "remarks": "rule_set_06"
+            "remarks": "rule_set_07"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-sc-7",
-            "remarks": "rule_set_07"
+            "remarks": "rule_set_08"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for sc-7",
-            "remarks": "rule_set_07"
+            "remarks": "rule_set_08"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-au-2",
-            "remarks": "rule_set_08"
+            "remarks": "rule_set_09"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for au-2",
-            "remarks": "rule_set_08"
+            "remarks": "rule_set_09"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-cm-8",
-            "remarks": "rule_set_09"
+            "remarks": "rule_set_10"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for cm-8",
-            "remarks": "rule_set_09"
+            "remarks": "rule_set_10"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-2",
-            "remarks": "rule_set_10"
+            "remarks": "rule_set_11"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ac-2",
-            "remarks": "rule_set_10"
+            "remarks": "rule_set_11"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-4",
-            "remarks": "rule_set_11"
+            "remarks": "rule_set_12"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ac-4",
-            "remarks": "rule_set_11"
+            "remarks": "rule_set_12"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-1",
-            "remarks": "rule_set_12"
+            "remarks": "rule_set_13"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ac-1",
-            "remarks": "rule_set_12"
+            "remarks": "rule_set_13"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-sc-5",
-            "remarks": "rule_set_13"
+            "remarks": "rule_set_14"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for sc-5",
-            "remarks": "rule_set_13"
+            "remarks": "rule_set_14"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ia-4",
-            "remarks": "rule_set_14"
+            "remarks": "rule_set_15"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ia-4",
-            "remarks": "rule_set_14"
+            "remarks": "rule_set_15"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-cm-7",
-            "remarks": "rule_set_15"
+            "remarks": "rule_set_16"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for cm-7",
-            "remarks": "rule_set_15"
+            "remarks": "rule_set_16"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-sc-8",
-            "remarks": "rule_set_16"
+            "remarks": "rule_set_17"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for sc-8",
-            "remarks": "rule_set_16"
+            "remarks": "rule_set_17"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-6",
-            "remarks": "rule_set_17"
+            "remarks": "rule_set_18"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ac-6",
-            "remarks": "rule_set_17"
+            "remarks": "rule_set_18"
           },
           {
             "name": "Rule_Id",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ia-3",
-            "remarks": "rule_set_18"
+            "remarks": "rule_set_19"
           },
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
             "value": "Rule for ia-3",
-            "remarks": "rule_set_18"
+            "remarks": "rule_set_19"
           }
         ],
         "control-implementations": [
           {
-            "uuid": "5fb2eafa-dbe4-4bf4-b184-5307453c760d",
+            "uuid": "3cf92571-6512-4c50-841e-18617e9e2925",
             "source": "trestle://profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP Rev 5 High Baseline",
             "implemented-requirements": [
               {
-                "uuid": "a670037c-d4ed-4bf1-80f1-aeaf8c83cc75",
+                "uuid": "e9b73dea-8982-462d-9bd7-3ae5680c2018",
                 "control-id": "si-3",
                 "description": "",
                 "props": [
@@ -262,7 +329,7 @@
                 ]
               },
               {
-                "uuid": "9457a281-579b-4f7d-bee3-8a60c1758ff6",
+                "uuid": "9efa4bd4-76a4-45bd-8983-2adc7ff2e6cb",
                 "control-id": "si-4",
                 "description": "",
                 "props": [
@@ -274,7 +341,7 @@
                 ]
               },
               {
-                "uuid": "b4235539-ff3d-4b2f-925e-358ad35a8a80",
+                "uuid": "a257c4d6-7412-4869-b187-52fd87b07ea3",
                 "control-id": "au-3",
                 "description": "",
                 "props": [
@@ -286,7 +353,7 @@
                 ]
               },
               {
-                "uuid": "e2be35f8-00d6-4dcf-9fde-4553a319315c",
+                "uuid": "ca1ca6b7-264e-4d49-9fb9-9aa0ab43f2a3",
                 "control-id": "si-2",
                 "description": "",
                 "props": [
@@ -298,7 +365,7 @@
                 ]
               },
               {
-                "uuid": "72d4f078-0834-4ff6-ac52-85ab8a784d48",
+                "uuid": "a9058e90-c49c-4ca7-a2ec-03cd063871aa",
                 "control-id": "ac-3",
                 "description": "",
                 "props": [
@@ -310,7 +377,7 @@
                 ]
               },
               {
-                "uuid": "e4b9e677-687a-4f08-a7df-8548be5318a5",
+                "uuid": "67603b0c-3f52-4da0-b8da-a8b22b85a26c",
                 "control-id": "ia-2",
                 "description": "",
                 "props": [
@@ -322,7 +389,7 @@
                 ]
               },
               {
-                "uuid": "58b07481-a673-41f3-b217-bb306740a248",
+                "uuid": "3168bb21-2288-4789-84ef-c27c1ad7c9e7",
                 "control-id": "cm-6",
                 "description": "",
                 "props": [
@@ -334,7 +401,7 @@
                 ]
               },
               {
-                "uuid": "e3f26e4d-9d3e-40ec-bf9c-7dc3d341f71d",
+                "uuid": "ecca49d1-5010-4579-845d-a02e9a8e2772",
                 "control-id": "sc-7",
                 "description": "",
                 "props": [
@@ -346,7 +413,7 @@
                 ]
               },
               {
-                "uuid": "ebddfffd-7ed6-49a9-a370-435abcf4b20e",
+                "uuid": "9a56a170-1d2b-4fbf-90f0-b6c3b726bc4e",
                 "control-id": "au-2",
                 "description": "",
                 "props": [
@@ -358,7 +425,7 @@
                 ]
               },
               {
-                "uuid": "2f20f934-97cf-4388-a115-27f71a080cb7",
+                "uuid": "0414a894-945c-4434-afed-1601ec589593",
                 "control-id": "cm-8",
                 "description": "",
                 "props": [
@@ -370,7 +437,7 @@
                 ]
               },
               {
-                "uuid": "6601dc26-edb8-4da5-8255-cad1b2db9d4f",
+                "uuid": "5dd1ff3b-c420-4e6f-ac16-ecc561437e3d",
                 "control-id": "ac-2",
                 "description": "",
                 "props": [
@@ -382,7 +449,7 @@
                 ]
               },
               {
-                "uuid": "deb72bd5-a180-4273-a08a-9809cdf3e295",
+                "uuid": "4169b02d-b73c-443c-a8bf-d4c5891a3c5b",
                 "control-id": "ac-4",
                 "description": "",
                 "props": [
@@ -394,7 +461,7 @@
                 ]
               },
               {
-                "uuid": "78131b04-256f-4386-ab62-e1ef33df14a2",
+                "uuid": "667950ba-045c-4e07-afc4-5ef852e8a79b",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
@@ -406,7 +473,7 @@
                 ]
               },
               {
-                "uuid": "825811c0-67cd-47d7-a85a-5bf4e0945a91",
+                "uuid": "77f77b35-4283-4ed8-8ae9-dd30682de875",
                 "control-id": "sc-5",
                 "description": "",
                 "props": [
@@ -418,7 +485,7 @@
                 ]
               },
               {
-                "uuid": "e04b1906-9db4-44d3-9b6d-1cda41b1dfe7",
+                "uuid": "393e9e52-2322-49d4-89d9-9bb4aba6959b",
                 "control-id": "ia-4",
                 "description": "",
                 "props": [
@@ -430,7 +497,7 @@
                 ]
               },
               {
-                "uuid": "1684c6ee-43bf-4506-8aaf-a91da7150482",
+                "uuid": "bc10742e-202d-4c42-9a7e-12c2e599e1e4",
                 "control-id": "cm-7",
                 "description": "",
                 "props": [
@@ -442,7 +509,7 @@
                 ]
               },
               {
-                "uuid": "9a85a2a8-2339-44aa-8b17-0fbd0002ca6e",
+                "uuid": "51ea6bbd-51aa-4ecb-9bda-58b8518225f5",
                 "control-id": "sc-8",
                 "description": "",
                 "props": [
@@ -454,7 +521,7 @@
                 ]
               },
               {
-                "uuid": "207421b6-56c1-4444-a404-e1ef8a4e1f6e",
+                "uuid": "90d3b540-0cff-40fe-8087-92ccdef1c2db",
                 "control-id": "ac-6",
                 "description": "",
                 "props": [
@@ -466,7 +533,7 @@
                 ]
               },
               {
-                "uuid": "9d0e270e-e0cd-4900-889b-7e06469073a0",
+                "uuid": "02eaf74c-bcd2-40c7-958e-8912731f7845",
                 "control-id": "ia-3",
                 "description": "",
                 "props": [
