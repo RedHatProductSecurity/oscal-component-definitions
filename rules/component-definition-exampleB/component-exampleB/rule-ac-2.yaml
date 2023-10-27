@@ -3,7 +3,7 @@ x-trestle-component-info:
   name: component-exampleB
   type: service
 x-trestle-rule-info:
-  description: Rule for ac-2
+  description: In the demo we defined a new rule
   name: rule-ac-2
   profile:
     description: FedRAMP Rev 5 High Baseline
