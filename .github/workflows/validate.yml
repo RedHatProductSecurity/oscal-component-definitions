@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Check components
         id: check-components
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.3.0
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.4.2
         with:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
