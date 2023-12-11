@@ -32,7 +32,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Transform rules
         id: transform
-        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.4.1
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.4.2
         with:
           file_pattern: "*.json,rules/*"
           branch: ${{ inputs.branch }}

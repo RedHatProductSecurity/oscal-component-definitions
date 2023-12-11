@@ -38,7 +38,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Create new component definition
         id: create-cd
-        uses: RedHatProductSecurity/trestle-bot/actions/create-cd@v0.4.1
+        uses: RedHatProductSecurity/trestle-bot/actions/create-cd@v0.4.2
         with:
           markdown_path: "markdown/components"
           profile_name: ${{ github.event.inputs.import_name }}
