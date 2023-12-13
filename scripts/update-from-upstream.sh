@@ -6,34 +6,53 @@ set -eu
 # Script: update-from-upstream.sh
 # Description: Clones a git repository at a specific branch based on an argument input.
 #              It copies if any files matching a pattern to the current directory
-#              If the files have been updated and creates a branch and GitHub pull request.
 # Usage: ./update-from-upstream.sh -b <branch> -r <repo_url> -p <pattern1>...[-i include_dir1]
 # Note: Useful for keeping upstream profiles and catalogs up to date
 ####################################################
 
-# shellcheck disable=SC2128
-SCRIPT_DIR="$(realpath "$(dirname "$BASH_SOURCE")")"
+function run_log () {
+  if [[ $1 == 0 ]]; then
+    echo ">>  INFO: $2"
+  elif [[ $1 != 0 ]]; then
+    echo ">>  ERROR: $2"
+    exit 1
+  fi
+}
 
-# shellcheck disable=SC1091
-source "$SCRIPT_DIR/logging.sh"
-# shellcheck disable=SC1091
-source "$SCRIPT_DIR/auto-commit-push.sh"
+# Function to clone a git repository
+function clone_repo() {
+    local BRANCH="${1:?branch is required}"
+    local REPO="${2:?repository is required}"
+    local DIR="${3:-"."}"
+    echo "git clone --branch $BRANCH $REPO $DIR"
+    git clone --branch "$BRANCH" "$REPO" "$DIR"
+}
 
+# Function to generate the destination path based on the source path while removing specified parent directories
+function generate_destination_path() {
+    local SOURCE_PATH="${1:?"source directory is required"}"
+    local remove_dirs=("${@:2}")
+
+    # Iterate over the remove_dirs array and remove each specified parent directory from the source path
+    for dir in "${remove_dirs[@]}"; do
+        SOURCE_PATH=${SOURCE_PATH#"$dir/"}
+    done
+
+    echo "$SOURCE_PATH"
+}
 
 function main() {
     # Default include directories
     DEFAULT_INCLUDE_DIRS=()
     BRANCH=""
     REPO_URL=""
-    AUTHOR=""
     patterns=()
 
     # Parse command line options
-    while getopts ":b:r:a:p:i:" opt; do
+    while getopts ":b:r:p:i:" opt; do
         case $opt in
             b) BRANCH="$OPTARG";;
             r) REPO_URL="$OPTARG";;
-            a) AUTHOR="$OPTARG";;
             p) patterns+=("$OPTARG");;
             i) include_dirs+=("$OPTARG");;
             \?) echo "Invalid option -$OPTARG" >&2; exit 1;;
@@ -42,16 +61,12 @@ function main() {
 
     # Check if required arguments are provided
     if [ -z "$BRANCH" ] || [ -z "$REPO_URL" ] || [ ${#patterns[@]} -eq 0 ]; then
-    echo "Usage: update-from-upstream.sh -b branch -r repo_url -a author -p pattern1 -p pattern2 ... [-i include_dir1] [-i include_dir2] ..."
+    echo "Usage: update-from-upstream.sh -b branch -r repo_url -p pattern1 -p pattern2 ... [-i include_dir1] [-i include_dir2] ..."
     exit 1
     fi
 
     # Set default value for include_dirs if not provided
     include_dirs=("${include_dirs[@]:-${DEFAULT_INCLUDE_DIRS[@]}}")
-
-    local COMMIT_TITLE="Sync OSCAL Content"
-    local COMMIT_BODY="chore: updates from upstream $REPO_URL"
-    git checkout -b "autoupdate_$GITHUB_RUN_ID"
 
     tmpdir=$(mktemp -d)
     run_log 0 "Created $tmpdir"
@@ -79,20 +94,6 @@ function main() {
             done
         done
     done
-
-    if [ -n "$(git status --porcelain)" ]; then
-        
-        add_files "${patterns[@]}"
-
-        if [ -n "$(git status --untracked-files=no --porcelain)" ]; then
-            local_commit "$COMMIT_BODY" "$AUTHOR"
-            create_branch_pull_request "autoupdate_$GITHUB_RUN_ID" "$COMMIT_TITLE" "$COMMIT_BODY"
-        else
-            run_log 0 "Nothing to commit."
-        fi
-    else
-        run_log 0 "Nothing to commit."
-    fi
 }
 
 main "$@"

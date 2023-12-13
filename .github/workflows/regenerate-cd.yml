@@ -12,9 +12,6 @@ jobs:
   update:
     name: Regenerate content
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
       - name: Generate app token
         uses: tibdex/github-app-token@v2.1.0
