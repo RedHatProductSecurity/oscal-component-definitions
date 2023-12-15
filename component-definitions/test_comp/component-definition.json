@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "0c1686a8-6bac-4986-8409-ca1ff73661fe",
+    "uuid": "c7bb4f6a-8b3d-46cc-8c7a-27ab0b7a50e4",
     "metadata": {
       "title": "Component definition for test_comp",
-      "last-modified": "2023-12-15T16:05:43+00:00",
+      "last-modified": "2023-12-15T16:25:30+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "3d237c1d-9f99-4c01-a6e6-37b7e492d1f9",
+        "uuid": "bd8d9b74-96e9-444c-8541-00086f18afab",
         "type": "service",
         "title": "My Comp",
         "description": "My testing comp",
@@ -119,7 +119,7 @@
           {
             "name": "Rule_Description",
             "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
-            "value": "Rule for ac-1",
+            "value": "Rule for ac-1 with extra info",
             "remarks": "rule_set_08"
           },
           {
@@ -245,12 +245,12 @@
         ],
         "control-implementations": [
           {
-            "uuid": "cefbf885-1eb3-416b-ab5b-8df9c77b6124",
+            "uuid": "96d8cf76-8cf7-4659-845d-9d951d48bc58",
             "source": "trestle://profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP Rev 5 High Baseline",
             "implemented-requirements": [
               {
-                "uuid": "e6a0be33-afa6-4bb3-9b87-7793cd704714",
+                "uuid": "61ff78af-723c-495d-ba33-4b0d14ec74e6",
                 "control-id": "sc-8",
                 "description": "",
                 "props": [
@@ -262,7 +262,7 @@
                 ]
               },
               {
-                "uuid": "e870c1a6-e5dc-4cd7-89a0-743868a40c90",
+                "uuid": "73114547-c285-4046-8e6d-15593d3e7f0b",
                 "control-id": "sc-5",
                 "description": "",
                 "props": [
@@ -274,7 +274,7 @@
                 ]
               },
               {
-                "uuid": "4d407af7-726e-4365-995c-7d90041a9b57",
+                "uuid": "8a682228-6d4f-4bde-9215-5683567c7df8",
                 "control-id": "ac-3",
                 "description": "",
                 "props": [
@@ -286,7 +286,7 @@
                 ]
               },
               {
-                "uuid": "4c87b37b-98fd-4cb7-b707-d8b1fb1b0c3f",
+                "uuid": "b22391f3-43dd-4a46-a3cf-d4083f2a6a7e",
                 "control-id": "au-2",
                 "description": "",
                 "props": [
@@ -298,7 +298,7 @@
                 ]
               },
               {
-                "uuid": "d1bca2f3-819e-40e2-b8c6-fbd7d3b7d637",
+                "uuid": "cf72b56d-5ce7-4f69-b6d3-8ff7f602eac9",
                 "control-id": "ac-2",
                 "description": "",
                 "props": [
@@ -310,7 +310,7 @@
                 ]
               },
               {
-                "uuid": "15a3c3bd-2d8c-4b20-ab4a-8c1c8fdf10e6",
+                "uuid": "22475ab5-635a-42a3-92e0-526f2804f5ca",
                 "control-id": "ac-6",
                 "description": "",
                 "props": [
@@ -322,7 +322,7 @@
                 ]
               },
               {
-                "uuid": "2780b6e0-6237-4c33-9635-02ee1d348f40",
+                "uuid": "41014843-5ef7-4d56-a2a9-51f86f750222",
                 "control-id": "cm-8",
                 "description": "",
                 "props": [
@@ -334,7 +334,7 @@
                 ]
               },
               {
-                "uuid": "8989dac2-3969-456d-b9f6-9f6223c52175",
+                "uuid": "147a4c19-b423-4436-9ed8-769d0606355c",
                 "control-id": "cm-7",
                 "description": "",
                 "props": [
@@ -346,7 +346,7 @@
                 ]
               },
               {
-                "uuid": "aa2fda9b-1ede-49d1-a74c-4c44b8f037b2",
+                "uuid": "979e5d22-e4e4-4fb2-bd94-156197f8b0ee",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
@@ -358,7 +358,7 @@
                 ]
               },
               {
-                "uuid": "2eb59126-af0b-4a3b-9cb5-806eed684589",
+                "uuid": "f1ad3a5a-8f11-441d-97f3-b82cbbcd0b44",
                 "control-id": "ia-3",
                 "description": "",
                 "props": [
@@ -370,7 +370,7 @@
                 ]
               },
               {
-                "uuid": "ed4af8bc-db3c-46c3-b948-fa338b6c5dcd",
+                "uuid": "67b506f7-b2db-427e-8226-9d5558e2769e",
                 "control-id": "si-3",
                 "description": "",
                 "props": [
@@ -382,7 +382,7 @@
                 ]
               },
               {
-                "uuid": "52579570-d36f-4dc3-805a-1c0771e8c20d",
+                "uuid": "7caae471-bfbf-483e-8027-dacbebadfa59",
                 "control-id": "sc-7",
                 "description": "",
                 "props": [
@@ -394,7 +394,7 @@
                 ]
               },
               {
-                "uuid": "ae23bedd-1c5f-41a5-bcea-e7c68cdacafc",
+                "uuid": "77a43cdc-d21d-497e-bdfc-220f91f34c8a",
                 "control-id": "au-3",
                 "description": "",
                 "props": [
@@ -406,7 +406,7 @@
                 ]
               },
               {
-                "uuid": "c9fb5511-ec4c-4d79-b458-4666c2f3bedd",
+                "uuid": "3ca2ac3f-16a7-48e2-8cea-f1bb5f233df5",
                 "control-id": "cm-6",
                 "description": "",
                 "props": [
@@ -418,7 +418,7 @@
                 ]
               },
               {
-                "uuid": "4e2439b4-1684-4d14-9fa1-304fb8f5ba07",
+                "uuid": "3edc168f-2b02-43d3-a891-4da73c14f5a6",
                 "control-id": "si-4",
                 "description": "",
                 "props": [
@@ -430,7 +430,7 @@
                 ]
               },
               {
-                "uuid": "8b480ecd-84dd-4b54-89b6-a0d00d8f32f1",
+                "uuid": "28d1a417-3ec9-43a0-b982-cf7a0b5d30c3",
                 "control-id": "ac-4",
                 "description": "",
                 "props": [
@@ -442,7 +442,7 @@
                 ]
               },
               {
-                "uuid": "46429c65-c9fa-4d45-a33c-5a75daf97ce2",
+                "uuid": "5af096c9-0044-4dde-a636-65f65618da8b",
                 "control-id": "ia-4",
                 "description": "",
                 "props": [
@@ -454,7 +454,7 @@
                 ]
               },
               {
-                "uuid": "68f075f3-b4fa-47ed-bf65-3430d70580db",
+                "uuid": "a5a47f9b-1463-42b5-bc20-67c9b2900b60",
                 "control-id": "ia-2",
                 "description": "",
                 "props": [
@@ -466,7 +466,7 @@
                 ]
               },
               {
-                "uuid": "6d8fb689-7757-4083-898a-914e373dcdf4",
+                "uuid": "6a3d3afc-4164-4046-8878-9f806fa19407",
                 "control-id": "si-2",
                 "description": "",
                 "props": [
