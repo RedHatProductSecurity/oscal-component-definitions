@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: My testing comp
+  name: My Comp
+  type: service
+x-trestle-rule-info:
+  description: Rule for au-3
+  name: rule-au-3
+  profile:
+    description: FedRAMP Rev 5 High Baseline
+    href: trestle://profiles/fedramp_rev5_high/profile.json
+    include-controls:
+    - id: au-3
