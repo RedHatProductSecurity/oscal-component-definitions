@@ -38,3 +38,13 @@ jobs:
           branch: ${{ inputs.branch }}
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
+      - name: Regenerate component definitions
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.7.1
+        with:
+          markdown_path: "markdown/components"
+          oscal_model: "compdef"
+          file_pattern: "markdown/*"
+          branch: ${{ inputs.branch }}
+          skip_assemble: true
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
