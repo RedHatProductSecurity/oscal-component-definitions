@@ -32,3 +32,14 @@ jobs:
           github_token: ${{ steps.get_installation_token.outputs.token }}
           sources: |
             https://github.com/RedHatProductSecurity/oscal-profiles@main
+      - name: Regenerate component definitions
+        id: regenerate
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.7.1
+        with:
+          markdown_path: "markdown/components"
+          oscal_model: "compdef"
+          file_pattern: "markdown/*"
+          branch: "sync-upstream-${{ github.run_id }}"
+          skip_assemble: true
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
