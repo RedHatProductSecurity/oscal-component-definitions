@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: My testing comp
+  name: My Comp
+  type: service
+x-trestle-rule-info:
+  description: Rule for ac-2
+  name: rule-ac-2
+  profile:
+    description: Example
+    href: trestle://profiles/example/profile.json
+    include-controls:
+    - id: ac-2

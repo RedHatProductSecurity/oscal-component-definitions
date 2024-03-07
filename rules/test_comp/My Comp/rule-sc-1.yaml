@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: My testing comp
+  name: My Comp
+  type: service
+x-trestle-rule-info:
+  description: Rule for sc-1
+  name: rule-sc-1
+  profile:
+    description: Example
+    href: trestle://profiles/example/profile.json
+    include-controls:
+    - id: sc-1
