@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "6df3d3fb-3fae-4a84-a5ca-4979a789d0fb",
+    "uuid": "96f6d8a7-eff4-48be-9465-88059b9ae2df",
     "metadata": {
       "title": "Component definition for test_comp",
-      "last-modified": "2024-03-12T21:00:50+00:00",
+      "last-modified": "2024-03-12T21:04:04+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "1ccba5f0-b307-4156-a0d0-91581a98ca2c",
+        "uuid": "f41efd67-7d20-4ccb-afa8-10d343e75ef1",
         "type": "service",
         "title": "My Comp",
         "description": "My testing comp",
@@ -39,6 +39,24 @@
             "remarks": "rule_set_1"
           },
           {
+            "name": "Parameter_Id",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "prm_1",
+            "remarks": "rule_set_1"
+          },
+          {
+            "name": "Parameter_Description",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "prm_1 description",
+            "remarks": "rule_set_1"
+          },
+          {
+            "name": "Parameter_Value_Alternatives",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
+            "value": "{'default': '5%', '5pc': '5%', '10pc': '10%', '15pc': '15%', '20pc': '20%'}",
+            "remarks": "rule_set_1"
+          },
+          {
             "name": "Rule_Id",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "rule-ac-4.4",
@@ -65,12 +83,20 @@
         ],
         "control-implementations": [
           {
-            "uuid": "dd0199c6-3c76-4cc1-a371-8498ba4488e3",
+            "uuid": "72be6c54-6bd5-4249-870b-a1f259b9de20",
             "source": "trestle://profiles/example/profile.json",
             "description": "Example",
+            "set-parameters": [
+              {
+                "param-id": "prm_1",
+                "values": [
+                  "5%"
+                ]
+              }
+            ],
             "implemented-requirements": [
               {
-                "uuid": "da8c2025-0afb-4e0a-9879-3f59986fdabb",
+                "uuid": "02ef09fa-7142-450a-ba54-5f21fd9c7b8b",
                 "control-id": "ac-2",
                 "description": "",
                 "props": [
@@ -82,7 +108,7 @@
                 ]
               },
               {
-                "uuid": "396b501b-1cbc-4b35-b59f-cdc55955d9cc",
+                "uuid": "c2a9d5fd-91e4-4e57-8755-c7757f2fbb10",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
@@ -94,7 +120,7 @@
                 ]
               },
               {
-                "uuid": "6ead9bae-f659-4ba2-ab51-9546e14719ce",
+                "uuid": "9b5432f6-212c-4188-bf5b-da6a8a8bc357",
                 "control-id": "ac-4.4",
                 "description": "",
                 "props": [
@@ -106,7 +132,7 @@
                 ]
               },
               {
-                "uuid": "0c1db073-eef3-417c-a19c-0fe236c96cce",
+                "uuid": "016d135e-cfde-4a73-b7c3-7fc0b771fcd5",
                 "control-id": "sc-1",
                 "description": "",
                 "props": [

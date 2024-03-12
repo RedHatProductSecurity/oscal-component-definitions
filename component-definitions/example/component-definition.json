@@ -1,53 +1,53 @@
 {
   "component-definition": {
-    "uuid": "231abb61-81ad-4c0e-b2a9-09128de8e67a",
+    "uuid": "d243e5ab-9e40-42e0-a8e1-1104e8220f10",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2023-10-25T21:25:22+00:00",
+      "last-modified": "2024-03-12T21:04:04+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "5c3e6d1f-8a90-42d4-97c4-9af36d916ae6",
+        "uuid": "cb84a3fd-4af1-4399-b665-291690696efb",
         "type": "service",
         "title": "Example",
         "description": "Example Application",
         "props": [
           {
             "name": "Rule_Id",
-            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "Test-rule_001",
             "remarks": "rule_set_0"
           },
           {
             "name": "Rule_Description",
-            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "Ensure all of the services are running these tests",
             "remarks": "rule_set_0"
           },
           {
             "name": "Parameter_Id",
-            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "prm_1",
             "remarks": "rule_set_0"
           },
           {
             "name": "Parameter_Description",
-            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "prm_1 description",
             "remarks": "rule_set_0"
           },
           {
             "name": "Parameter_Value_Alternatives",
-            "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+            "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
             "value": "{'default': '5%', '5pc': '5%', '10pc': '10%', '15pc': '15%', '20pc': '20%'}",
             "remarks": "rule_set_0"
           }
         ],
         "control-implementations": [
           {
-            "uuid": "8f45e213-a818-4d61-80df-2b8563e3641d",
+            "uuid": "acf07773-ef90-4380-8ca0-da2273730ba0",
             "source": "profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP REV5 High Baseline",
             "set-parameters": [
@@ -60,13 +60,13 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "b34fa867-a4a9-44b1-86c5-d3517e8d8d81",
+                "uuid": "4cea0587-d60a-43a2-9f49-a331538ba74a",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
                   {
                     "name": "Rule_Id",
-                    "ns": "https://ibm.github.io/compliance-trestle/schemas/oscal",
+                    "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
                     "value": "Test-rule_001"
                   }
                 ]
