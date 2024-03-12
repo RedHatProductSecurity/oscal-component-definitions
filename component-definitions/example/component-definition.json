@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "692e31c0-0757-46c1-b4ce-33438ded0381",
+    "uuid": "e16bb61a-0d10-4e36-a156-5f68fbc795aa",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2024-03-12T20:34:06+00:00",
+      "last-modified": "2024-03-12T21:21:36+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "16e850ca-90e2-48ed-926d-d5d78c7de1f8",
+        "uuid": "e67d2dbb-9419-4ff4-8725-022087a3d30a",
         "type": "service",
         "title": "Example",
         "description": "Example Application",
@@ -47,7 +47,7 @@
         ],
         "control-implementations": [
           {
-            "uuid": "27d7c0bb-24df-4c02-9512-2ddd78d1914b",
+            "uuid": "2308d9b1-e7b1-4df1-a5e3-cd0ec382e5c0",
             "source": "profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP REV5 High Baseline",
             "set-parameters": [
@@ -60,7 +60,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "a8003166-7c30-4c80-9b3e-c5e1c66b4df3",
+                "uuid": "95d6b463-c547-4cd6-9021-b0943c0b347f",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
