@@ -34,7 +34,7 @@ jobs:
           sources: |
             https://github.com/RedHatProductSecurity/oscal-profiles@main
       - name: Regenerate component definitions
-        if: ${{ steps.sync_upstreams.outputs.changes }}
+        if: ${{ steps.sync_upstreams.outputs.commit }}
         uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.7.1
         with:
           markdown_path: "markdown/components"
