@@ -36,6 +36,7 @@ jobs:
         with:
           file_pattern: "*.json,rules/*"
           branch: ${{ inputs.branch }}
+          commit_message: "Transform rules to OSCAL [skip-ci]"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
       - name: Regenerate component definitions
@@ -46,5 +47,6 @@ jobs:
           file_pattern: "markdown/*"
           branch: ${{ inputs.branch }}
           skip_assemble: true
+          commit_message: "Generate markdown changes [skip-ci]"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"

@@ -33,7 +33,7 @@ jobs:
           sources: |
             https://github.com/RedHatProductSecurity/oscal-profiles@main
       - name: Regenerate component definitions
-        id: regenerate
+        if: ${{ steps.sync_upstreams.outputs.changes }}
         uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.7.1
         with:
           markdown_path: "markdown/components"
@@ -41,5 +41,6 @@ jobs:
           file_pattern: "markdown/*"
           branch: "sync-upstream-${{ github.run_id }}"
           skip_assemble: true
+          commit_message: "Generate markdown changes [skip ci]"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
