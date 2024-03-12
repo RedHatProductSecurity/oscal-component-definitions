@@ -18,6 +18,28 @@ x-trestle-global:
     title: Example
     href: trestle://profiles/example/profile.json
   sort-id: ac-01
+x-trestle-rules-params:
+  My Comp:
+    - name: prm_1
+      description: prm_1 description
+      options: "{'default': '5%', '5pc': '5%', '10pc': '10%', '15pc': '15%', '20pc':
+        '20%'}"
+      rule-id: rule-ac-1
+x-trestle-comp-def-rules-param-vals:
+  # You may set new values for rule parameters by adding
+  #
+  # component-values:
+  #   - value 1
+  #   - value 2
+  #
+  # below a section of values:
+  # The values list refers to the values as set by the components, and the component-values are the new values
+  # to be placed in SetParameters of the component definition.
+  #
+  My Comp:
+    - name: prm_1
+      values:
+        - 5%
 ---
 
 # ac-1 - \[Access Control\] Policy and Procedures

@@ -3,7 +3,7 @@
     "uuid": "2c886a12-6ffa-41f9-a304-fec473e6a7ec",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2024-03-12T20:06:19+00:00",
+      "last-modified": "2024-03-12T20:07:14.430687+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
@@ -68,6 +68,10 @@
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
                     "value": "Test-rule_001"
+                  },
+                  {
+                    "name": "implementation-status",
+                    "value": "planned"
                   }
                 ]
               }
