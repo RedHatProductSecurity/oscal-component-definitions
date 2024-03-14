@@ -8,4 +8,5 @@ ENABLE_LINTERS:
   - REPOSITORY_KICS
 
 YAML_YAMLLINT_ARGUMENTS: "-d {extends: relaxed, rules: {line-length: {max: 105}}}"
+YAML_YAMLLINT_COMMAND_REMOVE_ARGUMENTS: "-c .yamllint.yml"
 REPOSITORY_KICS_ARGUMENTS: "--fail-on high"
