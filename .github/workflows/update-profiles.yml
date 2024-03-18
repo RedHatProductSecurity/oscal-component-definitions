@@ -1,6 +1,6 @@
 name: Update upstream content
 
-on: 
+on:
   workflow_dispatch:
 
 jobs:
@@ -11,7 +11,7 @@ jobs:
       - name: Generate app token
         uses: tibdex/github-app-token@v2.1.0
         id: get_installation_token
-        with: 
+        with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
           permissions: >-
@@ -45,3 +45,4 @@ jobs:
           commit_message: "Generate markdown changes [skip ci]"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
+

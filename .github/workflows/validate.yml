@@ -27,7 +27,7 @@ jobs:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
           check_only: true
-  
+
   # Only autofix if the test job fails and the PR is from the same repo
   call-autofix:
     needs: [test]

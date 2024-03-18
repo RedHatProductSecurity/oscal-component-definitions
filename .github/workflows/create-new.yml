@@ -1,7 +1,7 @@
 name: Component Definitions Create
 on:
   workflow_dispatch:
-   inputs:
+    inputs:
       import_name:
         required: true
         description: Name of profile in trestle workspace to be imported into the component definition
@@ -17,7 +17,7 @@ on:
       filter_by_profile:
         required: false
         description: Filter the component definition control by a separate profile
-     
+
 
 jobs:
   create-component:
@@ -27,7 +27,7 @@ jobs:
       - name: Generate app token
         uses: tibdex/github-app-token@v2.1.0
         id: get_installation_token
-        with: 
+        with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
           permissions: >-
