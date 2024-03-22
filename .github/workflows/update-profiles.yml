@@ -2,6 +2,11 @@ name: Update upstream content
 
 on:
   workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Reference to sync from'
+        required: false
+        default: 'main'
 
 jobs:
   update:
@@ -32,7 +37,7 @@ jobs:
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
           github_token: ${{ steps.get_installation_token.outputs.token }}
           sources: |
-            https://github.com/RedHatProductSecurity/oscal-profiles@main
+            https://github.com/RedHatProductSecurity/oscal-profiles@${{ github.event.inputs.ref }}
       - name: Regenerate component definitions
         if: ${{ steps.sync_upstreams.outputs.commit }}
         uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.7.2
