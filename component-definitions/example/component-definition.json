@@ -1,15 +1,15 @@
 {
   "component-definition": {
-    "uuid": "3172756f-df6b-4f45-bb91-83c228963c1a",
+    "uuid": "4bc731f1-03bf-4f56-a76a-d8ea62dfd788",
     "metadata": {
       "title": "Component definition for example",
-      "last-modified": "2024-03-15T00:07:34.346682+00:00",
+      "last-modified": "2024-05-02T15:23:25+00:00",
       "version": "1.0",
       "oscal-version": "1.0.4"
     },
     "components": [
       {
-        "uuid": "7b595bb9-c6ec-409c-b109-95e71ddf2f56",
+        "uuid": "b8c06a65-a8f5-424b-89de-d81fb36b1902",
         "type": "service",
         "title": "Example",
         "description": "Example Application",
@@ -41,13 +41,13 @@
           {
             "name": "Parameter_Value_Alternatives",
             "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
-            "value": "{'default': '5%', '5pc': '5%', '10pc': '10%', '15pc': '15%', '20pc': '20%'}",
+            "value": "{\"default\": \"5%\", \"5pc\": \"5%\", \"10pc\": \"10%\", \"15pc\": \"15%\", \"20pc\": \"20%\"}",
             "remarks": "rule_set_0"
           }
         ],
         "control-implementations": [
           {
-            "uuid": "21db09e0-ce6f-4e67-9116-b2358a2f4074",
+            "uuid": "8f6f79aa-101e-4cd3-a7bb-5d6a4a80fa1f",
             "source": "profiles/fedramp_rev5_high/profile.json",
             "description": "FedRAMP REV5 High Baseline",
             "set-parameters": [
@@ -60,7 +60,7 @@
             ],
             "implemented-requirements": [
               {
-                "uuid": "fac395f0-1a36-4c97-b7c4-805c08051a81",
+                "uuid": "54158878-afd7-49bb-ad08-8a6004adb5e2",
                 "control-id": "ac-1",
                 "description": "",
                 "props": [
@@ -68,10 +68,6 @@
                     "name": "Rule_Id",
                     "ns": "https://oscal-compass.github.io/compliance-trestle/schemas/oscal",
                     "value": "Test-rule_001"
-                  },
-                  {
-                    "name": "implementation-status",
-                    "value": "planned"
                   }
                 ]
               }
