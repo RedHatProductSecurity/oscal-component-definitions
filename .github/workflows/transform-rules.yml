@@ -32,7 +32,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Transform rules
         id: transform
-        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.8.1
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@v0.9.0
         with:
           file_pattern: "*.json,rules/*"
           branch: ${{ inputs.branch }}
@@ -40,7 +40,7 @@ jobs:
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
       - name: Regenerate component definitions
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.8.1
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.9.0
         with:
           markdown_path: "markdown/components"
           oscal_model: "compdef"

@@ -27,7 +27,7 @@ jobs:
           token: ${{ steps.get_installation_token.outputs.token }}
       - name: Update from upstream repo
         id: sync_upstreams
-        uses: RedHatProductSecurity/trestle-bot/actions/sync-upstreams@v0.8.1
+        uses: RedHatProductSecurity/trestle-bot/actions/sync-upstreams@v0.9.0
         with:
           branch: "sync-upstream-${{ github.run_id }}"
           target_branch: "main"
@@ -40,7 +40,7 @@ jobs:
             https://github.com/RedHatProductSecurity/oscal-profiles@${{ github.event.inputs.ref }}
       - name: Regenerate component definitions
         if: ${{ steps.sync_upstreams.outputs.commit }}
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.8.1
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.9.0
         with:
           markdown_path: "markdown/components"
           oscal_model: "compdef"
