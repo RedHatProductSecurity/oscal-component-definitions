@@ -7,7 +7,7 @@ on:
       - 'profiles/**'
       - 'catalogs/**'
       - 'component-definitions/**'
-      - 'md_comp/**'
+      - 'markdown/components/**'
       - 'rules/**'
 
 concurrency:
