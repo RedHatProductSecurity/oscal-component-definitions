@@ -1,0 +1,60 @@
+name: Push to main
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'profiles/**'
+      - 'catalogs/**'
+      - 'component-definitions/**'
+      - 'md_comp/**'
+      - 'rules/**'
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  transform-and-sync:
+    name: Automatically Sync Content
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate app token
+        uses: tibdex/github-app-token@v2.1.0
+        id: get_installation_token
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.PRIVATE_KEY }}
+          permissions: >-
+            {"contents": "write"}
+      - name: Clone
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps.get_installation_token.outputs.token }}
+      - name: AutoSync
+        id: autosync
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
+        with:
+          markdown_path: "markdown/components"
+          oscal_model: "compdef"
+          commit_message: "Autosync component definition content [skip ci]"
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            rules:
+              - 'rules/**'
+      - name: Transform
+        if: steps.changes.outputs.rules == 'true'
+        id: transform
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@main
+        with:
+          markdown_path: "markdown/components"
+          commit_message: "Auto-transform rules [skip ci]" 
+          commit_user_name: "trestle-bot[bot]"
+          commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
+        
+      
+      

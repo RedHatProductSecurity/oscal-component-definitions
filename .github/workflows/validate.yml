@@ -1,46 +1,44 @@
-name: Evaluate component definitions
+name: Validate PR with CI
 on:
   pull_request:
     branches:
       - main
     paths:
+      - 'profiles/**'
+      - 'catalogs/**'
       - 'component-definitions/**'
-      - 'markdown/components/**'
+      - 'markdown/**'
+      - 'rules/**'
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
   cancel-in-progress: true
 
 jobs:
-  test:
-    name: Evaluate components
+  transform-and-regenerate:
+    name: Rules Transform and Content Syncing
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - name: Clone
         uses: actions/checkout@v4
-      - name: Check components
-        id: check
-        uses: RedHatProductSecurity/trestle-bot/actions/autosync@v0.10.1
+      - name: AutoSync
+        id: autosync
+        uses: RedHatProductSecurity/trestle-bot/actions/autosync@main
         with:
-          markdown_path: "markdown/components"
+          markdown_path: "md_comp"
           oscal_model: "compdef"
           dry_run: true
-      - name: Fail
-        if: ${{ steps.check.outputs.changes == 'true' }}
-        uses: actions/github-script@v7
+      - uses: dorny/paths-filter@v3
+        id: changes
         with:
-          script: |
-              core.setFailed('Changes detected. Manual intervention may be required.')
-
-  # Only autofix if the test job fails and the PR is from the same repo
-  call-autofix:
-    needs: [test]
-    if: |
-      always() && contains(needs.*.result, 'failure')
-      && github.event.pull_request.base.repo.url == github.event.pull_request.head.repo.url
-    uses: ./.github/workflows/autofix-cd.yml
-    with:
-      branch: ${{ github.head_ref }}
-    secrets: inherit
+          filters: |
+            rules:
+              - 'rules/**'
+      - name: Transform
+        if: steps.changes.outputs.rules == 'true'
+        id: transform
+        uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@feat/markdown-generation-transform
+        with:
+          markdown_path: "md_comp"
+          commit_message: "Auto-transform rules [skip ci]"
+          dry_run: true
