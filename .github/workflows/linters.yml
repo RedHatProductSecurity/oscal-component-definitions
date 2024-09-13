@@ -1,11 +1,12 @@
 ---
+
 name: MegaLinter
 
 on:
   push:
   pull_request:
     branches:
-    - main
+      - main
 
 concurrency:
   group: ${{ github.ref }}-${{ github.workflow }}
