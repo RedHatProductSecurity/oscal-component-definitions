@@ -52,9 +52,6 @@ jobs:
         uses: RedHatProductSecurity/trestle-bot/actions/rules-transform@main
         with:
           markdown_path: "markdown/components"
-          commit_message: "Auto-transform rules [skip ci]" 
+          commit_message: "Auto-transform rules [skip ci]"
           commit_user_name: "trestle-bot[bot]"
           commit_user_email: "136850459+trestle-bot[bot]@users.noreply.github.com"
-        
-      
-      
