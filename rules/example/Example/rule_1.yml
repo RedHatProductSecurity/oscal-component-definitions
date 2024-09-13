@@ -5,7 +5,7 @@ x-trestle-rule-info:
     name: prm_1
     description: prm_1 description
     alternative-values:
-      default: '20%'
+      default: '5%'
       5pc: '5%'
       10pc: '10%'
       15pc: '15%'
