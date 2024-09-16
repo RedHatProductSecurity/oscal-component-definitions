@@ -59,7 +59,7 @@ jobs:
             rm -rf component-definitions/ocp4/
             trestle import -f /tmp/ocp4.json -o ocp4
       - name: Update content
-        uses: peter-evans/create-pull-request@v5.0.2
+        uses: peter-evans/create-pull-request@v7.0.2
         with:
           base: main
           branch: "oscal-update-${{ github.run_id }}"
