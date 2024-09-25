@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: example
+  name: example
+  type: service
+x-trestle-rule-info:
+  description: Rule for pe-14.2
+  name: rule-pe-14.2
+  profile:
+    description: FedRAMP Rev 5 High Baseline
+    href: trestle://profiles/fedramp_rev5_high/profile.json
+    include-controls:
+    - id: pe-14.2
