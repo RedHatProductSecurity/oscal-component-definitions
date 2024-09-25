@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: example
+  name: example
+  type: service
+x-trestle-rule-info:
+  description: Rule for ac-6.8
+  name: rule-ac-6.8
+  profile:
+    description: FedRAMP Rev 5 High Baseline
+    href: trestle://profiles/fedramp_rev5_high/profile.json
+    include-controls:
+    - id: ac-6.8

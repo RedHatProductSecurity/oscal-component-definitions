@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: example
+  name: example
+  type: service
+x-trestle-rule-info:
+  description: Rule for cp-9
+  name: rule-cp-9
+  profile:
+    description: FedRAMP Rev 5 High Baseline
+    href: trestle://profiles/fedramp_rev5_high/profile.json
+    include-controls:
+    - id: cp-9

@@ -1,0 +1,12 @@
+x-trestle-component-info:
+  description: example
+  name: example
+  type: service
+x-trestle-rule-info:
+  description: Rule for sa-4.1
+  name: rule-sa-4.1
+  profile:
+    description: FedRAMP Rev 5 High Baseline
+    href: trestle://profiles/fedramp_rev5_high/profile.json
+    include-controls:
+    - id: sa-4.1
