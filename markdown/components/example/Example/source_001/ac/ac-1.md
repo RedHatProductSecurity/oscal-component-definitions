@@ -26,6 +26,11 @@ x-trestle-rules-params:
         '20%'}"
       rule-id: Test-rule_001
 x-trestle-comp-def-rules-param-vals:
+  Example:
+    - name: prm_1
+      values:
+        - 5%
+
   # You may set new values for rule parameters by adding
   #
   # component-values:
