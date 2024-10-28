@@ -40,4 +40,3 @@ Associated Workflows
 The `update-external-components` transforms data from the [`ComplianceAsCode` content](https://github.com/ComplianceAsCode/content)
 repository into OSCAL component definitions and updates the workspace.
 
-
